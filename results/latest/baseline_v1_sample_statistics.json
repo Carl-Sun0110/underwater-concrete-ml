@@ -1,0 +1,13 @@
+{
+  "source_records": 1082,
+  "underwater_records": 710,
+  "positive_raw_28d_underwater": 656,
+  "positive_converted_underwater": 582,
+  "primary_direct_evidence": 212,
+  "exploratory_total": 467,
+  "unknown_scope_additional": 255,
+  "missing_requested_workbooks": [
+    "水下混凝土_人工核查版.xlsx",
+    "水下混凝土_筛选结果_20261012.xlsx"
+  ]
+}

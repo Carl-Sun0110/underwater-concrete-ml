@@ -1,0 +1,17 @@
+{
+  "experiment_id": "exploratory-water-cement-baselines-v1",
+  "authorization": "用户在探索性基线方案后要求下一步，允许本次均值与岭回归探索训练",
+  "allow_exploratory_training": true,
+  "features": ["Water", "Cem"],
+  "target": "Provisional_Converted_CS_28d",
+  "seed": 42,
+  "test_group_fraction": 0.2,
+  "outer_cv_folds": 5,
+  "inner_cv_folds": 4,
+  "final_tuning_folds": 5,
+  "ridge_alphas": [0.01, 0.1, 1, 10, 100, 1000],
+  "tuning_metric": "neg_mean_absolute_error",
+  "n_jobs": 1,
+  "group_signature_fields": ["Water", "Cem", "SF", "FA", "GGBS", "MK", "NP", "AH", "GP", "QP", "LS", "StP", "RS", "MfS", "SS", "CA", "SCA", "SP", "AWA", "Retarder", "Emulsion", "StF", "SyF", "AEA", "UPA", "EA", "AlkaliAct", "w/c", "w/b"],
+  "scope": "暂定标签下的两特征流程验证；非最终可信模型，不比较老师要求的四算法"
+}

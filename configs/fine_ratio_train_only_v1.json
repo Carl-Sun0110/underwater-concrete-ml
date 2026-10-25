@@ -1,0 +1,98 @@
+{
+  "experiment_id": "strict-evidence-fine-ratio-input-comparison-v1",
+  "scope": "用户继续授权：相同128条、相同外折/网格，仅新增原文细骨料/水泥比；不评估测试",
+  "base_features": [
+    "Water",
+    "Cem"
+  ],
+  "feature_sets": [
+    "core_plus_fine_ratio",
+    "core_plus_fine_and_water_cement_ratio"
+  ],
+  "target": "Provisional_Converted_CS_28d",
+  "outer_folds": 5,
+  "inner_folds": 4,
+  "seed": 42,
+  "n_jobs": 1,
+  "scoring": "neg_mean_absolute_error",
+  "ridge_alpha": [
+    0.01,
+    0.1,
+    1,
+    10,
+    100,
+    1000
+  ],
+  "svr_C": [
+    1,
+    10,
+    100
+  ],
+  "svr_gamma": [
+    "scale",
+    0.1
+  ],
+  "svr_epsilon": [
+    0.1,
+    1.0
+  ],
+  "rf_n_estimators": 128,
+  "rf_max_depth": [
+    6,
+    null
+  ],
+  "rf_min_samples_leaf": [
+    2,
+    5
+  ],
+  "test_evaluation_allowed": false,
+  "material_imputation_allowed": false,
+  "derived_ratio_definition": "Water/Cem，按现有两正值输入计算；不是已核实的原表w/c或w/b",
+  "models": [
+    "mean",
+    "ridge",
+    "svr",
+    "rf",
+    "xgb",
+    "mlp"
+  ],
+  "xgb_learning_rate": 0.05,
+  "xgb_n_estimators": [
+    100,
+    200
+  ],
+  "xgb_max_depth": [
+    2,
+    4
+  ],
+  "mlp_hidden_sizes": [
+    32,
+    16
+  ],
+  "mlp_epochs": 200,
+  "mlp_batch_size": 64,
+  "mlp_dropout": [
+    0.1,
+    0.25
+  ],
+  "mlp_note": "CPU确定性训练；两层ReLU和Dropout；固定轮数，不使用外层验证/测试早停；目标缩放仅在各训练折",
+  "scope_gate": {
+    "registry": "/workspace/underwater-concrete-ml/outputs/casting-scope-gate-v1/scope_registry.json",
+    "registry_sha256": "2c554e60a19dfaafb0f094ba6e2d46605d1831f8937c2b08924622bc9825f38a",
+    "mode": "strict_evidence_scope"
+  },
+  "historical_scope_reproduction_only": false,
+  "training_execution_authorized": true,
+  "parent_plan_path": "/workspace/underwater-concrete-ml/outputs/casting-scope-gate-v1/planned_strict_evidence_scope.json",
+  "parent_plan_sha256": "0cb98d4eec190b974094a3753043096b1531ff2fe80b4decfb51dc58e8f9015a",
+  "evidence_input_features": [
+    "Water",
+    "Cem",
+    "fine_aggregate_to_cement_mass_ratio"
+  ],
+  "reference_training_folder": "/workspace/underwater-concrete-ml/outputs/scope-strict-train-only-v1",
+  "evidence_feature_folder": "/workspace/underwater-concrete-ml/outputs/evidence-feature-plan-v1",
+  "evidence_manifest_sha256": "5b1dd57be40774e63927015de990ee98d8475ea747312c5c19ac800c07d7990e",
+  "evidence_features_sha256": "662b37c66ffc822247b16d3c9e9b91372377259384b1144085ec5a31d91e3028",
+  "evidence_snapshot_sha256": "ccb1d88a6dd6b42cc0d1eab6f67f615cfeddeb7b75b8f481f5ec88d7b0206ba9"
+}

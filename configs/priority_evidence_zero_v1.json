@@ -1,0 +1,24 @@
+{
+  "experiment_id": "priority-evidence-zero-v1",
+  "baseline": "outputs/baseline_v1",
+  "refinement": "outputs/baseline_v1_1",
+  "raw": "/workspace/attachments/22c7b11d-170d-42eb-97c6-2593982771b2/UnderwaterConcrete - Total Data (Select 0927).xlsx",
+  "papers": [
+    "2023-Zhongzhe Zhang-[Effect-of-antiwashout-admixture-on-compressive-strength-of].pdf",
+    "2024-Baizhi Wang-[Filling-performance-of-self-protecting-underwater].pdf",
+    "2023-Elżbieta Horszczaruk-[Abrasion-resistance-and-mechanical-strength-of-underwater].pdf",
+    "2017-Elzbieta Horszczaruk-[Effects-of-fluidal-flyash-on-abrasion-resistance].pdf"
+  ],
+  "zero_hypothesis_paper": "2023-Zhongzhe Zhang-[Effect-of-antiwashout-admixture-on-compressive-strength-of].pdf",
+  "models": [
+    "rf",
+    "xgb",
+    "catboost"
+  ],
+  "feature_sets": [
+    "core",
+    "materials"
+  ],
+  "network_timeout_seconds": 15,
+  "policy": "原表线索≠PDF核实；不改原表、标签或正式可靠状态。只在扩展训练集比较4条候选Cem0语义，复用原训练来源折。"
+}

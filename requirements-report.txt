@@ -1,0 +1,2 @@
+-r requirements-baseline-v1.txt
+python-docx==1.2.0

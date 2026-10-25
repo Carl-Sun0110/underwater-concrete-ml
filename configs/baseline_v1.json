@@ -1,0 +1,42 @@
+{
+  "experiment_id": "baseline_v1_20261024",
+  "raw": "/workspace/attachments/22c7b11d-170d-42eb-97c6-2593982771b2/UnderwaterConcrete - Total Data (Select 0927).xlsx",
+  "scope_registry": "outputs/casting-scope-gate-v1/scope_registry.json",
+  "features": [
+    "Water",
+    "Cem",
+    "SF",
+    "FA",
+    "GGBS",
+    "MK",
+    "NP",
+    "RS",
+    "SS",
+    "CA",
+    "SCA"
+  ],
+  "seed": 42,
+  "test_fraction": 0.2,
+  "group_cv_folds": 5,
+  "near_recipe_rtol": 0.01,
+  "accepted_provisional_factors": [
+    0.95,
+    0.8,
+    0.76
+  ],
+  "target_consistency_tolerance_MPa": 0.1,
+  "models": [
+    "rf",
+    "xgb",
+    "catboost"
+  ],
+  "parameters": {
+    "trees": 150,
+    "max_depth": 4,
+    "learning_rate": 0.04
+  },
+  "target": "Converted CS_28d",
+  "imputation": "每个训练折内中位数加缺失指示器；材料0语义未明按未知；全未知列填0仅数值占位",
+  "scope": "主集需既有逐条直接水下成型证据；扩展探索集允许Excel Underwater来源明确而成型细节待核查，隔离已知非直接记录",
+  "historical_note": "数据和部分来源已用于此前探索；本轮是新的Baseline V1协议复现，不称全新盲测或研究初次接触数据"
+}

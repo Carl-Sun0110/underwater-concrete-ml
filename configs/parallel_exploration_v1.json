@@ -1,0 +1,49 @@
+{
+  "experiment_id": "parallel-exploration-v1",
+  "labels": "outputs/provisional-labels-v1/exploratory_labels.json",
+  "historical_split": "outputs/exploratory-baselines-v2/split_manifest.json",
+  "scope_registry": "outputs/casting-scope-gate-v1/scope_registry.json",
+  "raw_inputs": "configs/provisional_inputs.json",
+  "signature_config": "configs/baseline_experiment.json",
+  "seed": 42,
+  "folds": 5,
+  "trees": 120,
+  "feature_sets": {
+    "core": [
+      "Water",
+      "Cem"
+    ],
+    "materials": [
+      "Water",
+      "Cem",
+      "SF",
+      "FA",
+      "GGBS",
+      "MK",
+      "NP",
+      "AH",
+      "RS",
+      "SS",
+      "CA",
+      "SCA"
+    ],
+    "admixtures_sensitivity": [
+      "Water",
+      "Cem",
+      "SF",
+      "FA",
+      "GGBS",
+      "MK",
+      "NP",
+      "AH",
+      "RS",
+      "SS",
+      "CA",
+      "SCA",
+      "SP",
+      "AWA"
+    ]
+  },
+  "authorization": "用户明确要求文献核查与探索建模并行；允许合理插补输入、不插补标签；既有0.95/0.8/0.76仅作暂定换算",
+  "quality_overrides": []
+}

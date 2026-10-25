@@ -1,0 +1,79 @@
+{
+  "experiment_id": "source-balanced-evidence-v1",
+  "baseline_run": "outputs/parallel-exploration-v1",
+  "seed": 42,
+  "inner_folds": 3,
+  "feature_sets": [
+    "materials",
+    "materials_plus_ratios"
+  ],
+  "ratio_numerators": [
+    "Water",
+    "SF",
+    "FA",
+    "GGBS",
+    "RS",
+    "SS",
+    "CA",
+    "SCA"
+  ],
+  "ratio_denominator": "Cem",
+  "models": [
+    "rf",
+    "xgb"
+  ],
+  "grids": {
+    "rf": {
+      "model__n_estimators": [
+        150
+      ],
+      "model__min_samples_leaf": [
+        2,
+        5
+      ],
+      "model__max_features": [
+        0.7,
+        1.0
+      ]
+    },
+    "xgb": {
+      "model__n_estimators": [
+        120,
+        240
+      ],
+      "model__max_depth": [
+        2,
+        4
+      ]
+    },
+    "catboost": {
+      "model__iterations": [
+        180
+      ],
+      "model__depth": [
+        3,
+        5
+      ],
+      "model__l2_leaf_reg": [
+        3.0,
+        10.0
+      ]
+    }
+  },
+  "selection_scoring": "neg_mean_absolute_error",
+  "n_jobs": 1,
+  "scope": "固定上轮AB开发队列与外层折；输入中位数插补及缺失标记限训练折；不使用历史测试；派生配比比值为原表单位可比假定下的探索特征，未核实为严格无量纲",
+  "evidence_config": "configs/composition_review_evidence.json",
+  "sand_evidence": "configs/fine_aggregate_ratio_evidence.json",
+  "comparison_run": "outputs/parallel-nested-v2",
+  "objectives": [
+    "fold_mean",
+    "source_macro"
+  ],
+  "data_versions": [
+    "recorded",
+    "unit_mask",
+    "recorded_plus_source_ratios",
+    "unit_mask_plus_source_ratios"
+  ]
+}

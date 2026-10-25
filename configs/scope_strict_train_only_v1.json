@@ -1,0 +1,88 @@
+{
+  "experiment_id": "scope-reviewed-strict_evidence_scope",
+  "scope": "用户继续授权执行已固定预案；仅训练内探索，不评估封存测试，不提升可靠状态",
+  "base_features": [
+    "Water",
+    "Cem"
+  ],
+  "feature_sets": [
+    "core2",
+    "core_plus_computed_ratio"
+  ],
+  "target": "Provisional_Converted_CS_28d",
+  "outer_folds": 5,
+  "inner_folds": 4,
+  "seed": 42,
+  "n_jobs": 1,
+  "scoring": "neg_mean_absolute_error",
+  "ridge_alpha": [
+    0.01,
+    0.1,
+    1,
+    10,
+    100,
+    1000
+  ],
+  "svr_C": [
+    1,
+    10,
+    100
+  ],
+  "svr_gamma": [
+    "scale",
+    0.1
+  ],
+  "svr_epsilon": [
+    0.1,
+    1.0
+  ],
+  "rf_n_estimators": 128,
+  "rf_max_depth": [
+    6,
+    null
+  ],
+  "rf_min_samples_leaf": [
+    2,
+    5
+  ],
+  "test_evaluation_allowed": false,
+  "material_imputation_allowed": false,
+  "derived_ratio_definition": "Water/Cem，按现有两正值输入计算；不是已核实的原表w/c或w/b",
+  "models": [
+    "mean",
+    "ridge",
+    "svr",
+    "rf",
+    "xgb",
+    "mlp"
+  ],
+  "xgb_learning_rate": 0.05,
+  "xgb_n_estimators": [
+    100,
+    200
+  ],
+  "xgb_max_depth": [
+    2,
+    4
+  ],
+  "mlp_hidden_sizes": [
+    32,
+    16
+  ],
+  "mlp_epochs": 200,
+  "mlp_batch_size": 64,
+  "mlp_dropout": [
+    0.1,
+    0.25
+  ],
+  "mlp_note": "CPU确定性训练；两层ReLU和Dropout；固定轮数，不使用外层验证/测试早停；目标缩放仅在各训练折",
+  "scope_gate": {
+    "registry": "/workspace/underwater-concrete-ml/outputs/casting-scope-gate-v1/scope_registry.json",
+    "registry_sha256": "2c554e60a19dfaafb0f094ba6e2d46605d1831f8937c2b08924622bc9825f38a",
+    "mode": "strict_evidence_scope"
+  },
+  "historical_scope_reproduction_only": false,
+  "training_execution_authorized": true,
+  "parent_plan_path": "/workspace/underwater-concrete-ml/outputs/casting-scope-gate-v1/planned_strict_evidence_scope.json",
+  "parent_plan_sha256": "0cb98d4eec190b974094a3753043096b1531ff2fe80b4decfb51dc58e8f9015a"
+}

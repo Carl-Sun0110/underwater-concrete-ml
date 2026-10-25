@@ -1,0 +1,38 @@
+{
+  "experiment_id": "baseline_v1_1_train_only",
+  "baseline": "outputs/baseline_v1",
+  "features": {
+    "core": [
+      "Water",
+      "Cem"
+    ],
+    "materials": [
+      "Water",
+      "Cem",
+      "SF",
+      "FA",
+      "GGBS",
+      "MK",
+      "NP",
+      "RS",
+      "SS",
+      "CA",
+      "SCA"
+    ]
+  },
+  "models": [
+    "rf",
+    "xgb",
+    "catboost"
+  ],
+  "imputations": [
+    "median",
+    "scaled_knn"
+  ],
+  "cv_folds": 5,
+  "selection_metric": "macro_source_MAE_MPa",
+  "knn_neighbors": 5,
+  "seed": 42,
+  "test_policy": "锁定Baseline V1论文留出；仅训练记录分组CV，选模及最终拟合均不使用留出目标",
+  "evaluation_note": "Baseline V1已使用过留出，本轮不再评价；同训练CV选方案与报告仍可能乐观，非最终独立结论"
+}

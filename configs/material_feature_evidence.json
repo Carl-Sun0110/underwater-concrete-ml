@@ -1,0 +1,1629 @@
+{
+  "papers": {
+    "Zhang2025": {
+      "path": "/workspace/attachments/58da277f-b62b-4b87-9dc4-3c080170860a/2025-Yu Zhang-[Mechanism of Highly Adsorbent Macromolecular].pdf",
+      "sha256": "532ae12b76a06f402ee5362acc4f60f6e136580bfb1cd8790be3902083ea5324"
+    },
+    "AlSelmi2026": {
+      "path": "/workspace/attachments/eda66585-5913-4e80-b818-8c8cf4a5be6d/2026-Zainab M. Al-Selmi-[Experimental-and-Statistical-Optimization-of-Engineered].pdf",
+      "sha256": "a32b3862ba887a190c669b035b6528494dc6f26a7450c5f35875ed0cd9bd6f8f"
+    }
+  },
+  "protected_inputs": [
+    "/workspace/attachments/22c7b11d-170d-42eb-97c6-2593982771b2/UnderwaterConcrete - Total Data (Select 0927).xlsx",
+    "/workspace/attachments/c841de1c-56a6-40b4-91f2-b1c87ed10763/水下混凝土_批注核对版(1).xlsx",
+    "/workspace/underwater-concrete-ml/outputs/final-audit/registry.json"
+  ],
+  "scope": "两篇已阅读论文10配方，458条探索记录的独立候选层，未知不填0，禁止自动入模",
+  "annotations": [
+    {
+      "source_row": 942,
+      "specimen_id": "SX1",
+      "registry_pdf_filename": "2025-Yu Zhang-[Mechanism of Highly Adsorbent Macromolecular].pdf",
+      "paper": "Zhang2025",
+      "feature": "material_system",
+      "value": "UN-UHPC",
+      "unit": "category",
+      "basis": "材料体系",
+      "evidence": [
+        {
+          "page": 5,
+          "quote": "To investigate the effects of polymer on the workability, mechanical properties, and micro-\nstructure of underwater non-dispersive ultra-high performance concrete (UN-UHPC), four\ngroups with polymer dosages of 0%, 1.5%, 2.5%, and 3% were established. These dosages",
+          "location": "§2.2 本研究四组UN-UHPC"
+        }
+      ],
+      "method": "curated_source_reading",
+      "note": "",
+      "human_confirmation": "待核查",
+      "admitted_to_model": false
+    },
+    {
+      "source_row": 942,
+      "specimen_id": "SX1",
+      "registry_pdf_filename": "2025-Yu Zhang-[Mechanism of Highly Adsorbent Macromolecular].pdf",
+      "paper": "Zhang2025",
+      "feature": "antiwashout_product",
+      "value": "UWB-II polymer blend",
+      "unit": "category",
+      "basis": "产品/聚合物名称，不表示产品等效",
+      "evidence": [
+        {
+          "page": 4,
+          "quote": "achieve excellent strength and durability [35]. Additionally, steel fibers were incorpo-\nrated into the mixture to enhance the strength of UHPC. The steel fibers, with a diam-\neter of 0.2 mm and an average length of 15 mm, were coated with copper. The polymer\nused was UWB-II type flocculant, developed by the China Petroleum Engineering Tech-\nnology Research Institute, primarily composed of polysaccharide polymer thickener,\nconcrete fluidizer, and concrete setting time regulator. The molecular formula of the\npolymer is shown in Fig. 1.",
+          "location": "§2.1 钢纤维和UWB-II产品组成"
+        }
+      ],
+      "method": "curated_source_reading",
+      "note": "混合产品，不等同于纯聚合物或其他AWA产品。",
+      "human_confirmation": "待核查",
+      "admitted_to_model": false
+    },
+    {
+      "source_row": 942,
+      "specimen_id": "SX1",
+      "registry_pdf_filename": "2025-Yu Zhang-[Mechanism of Highly Adsorbent Macromolecular].pdf",
+      "paper": "Zhang2025",
+      "feature": "fiber_type",
+      "value": "copper-coated steel",
+      "unit": "category",
+      "basis": "本轮已定位的纤维种类，不推断其他纤维不存在",
+      "evidence": [
+        {
+          "page": 4,
+          "quote": "achieve excellent strength and durability [35]. Additionally, steel fibers were incorpo-\nrated into the mixture to enhance the strength of UHPC. The steel fibers, with a diam-\neter of 0.2 mm and an average length of 15 mm, were coated with copper. The polymer\nused was UWB-II type flocculant, developed by the China Petroleum Engineering Tech-\nnology Research Institute, primarily composed of polysaccharide polymer thickener,\nconcrete fluidizer, and concrete setting time regulator. The molecular formula of the\npolymer is shown in Fig. 1.",
+          "location": "§2.1 钢纤维和UWB-II产品组成"
+        }
+      ],
+      "method": "curated_source_reading",
+      "note": "",
+      "human_confirmation": "待核查",
+      "admitted_to_model": false
+    },
+    {
+      "source_row": 942,
+      "specimen_id": "SX1",
+      "registry_pdf_filename": "2025-Yu Zhang-[Mechanism of Highly Adsorbent Macromolecular].pdf",
+      "paper": "Zhang2025",
+      "feature": "polymer_pct_cement",
+      "value": 0,
+      "unit": "%",
+      "basis": "cement_mass",
+      "evidence": [
+        {
+          "page": 5,
+          "location": "§2.2，聚合物掺量与基准",
+          "quote": "groups with polymer dosages of 0%, 1.5%, 2.5%, and 3% were established. These dosages\nwere selected based on previous studies [21, 22] that demonstrated optimal washout resist-\nance and mechanical performance within this range. Preliminary trials were conducted\nto ensure that the selected dosages provided sufficient flowability and washout resistance\nwithout compromising the structural integrity of the concrete. The polymer dosages were\nset at 0, 0.015, 0.025, and 0.030 of the cement mass for groups SX1, SX2, SX3, and SX4,\nrespectively. In the SX1 group, which had no polymer addition, there was severe dispersion\nunderwater. The SX2 group, with a very low polymer dosage, still experienced substan-\ntial slurry dispersion underwater. The SX4 group had the highest polymer dosage used for\nspecimen preparation. When the polymer content exceeded this amount, the slurry lost its\nflowability. The mix proportions are shown in Table 3.\n"
+        }
+      ],
+      "method": "curated_source_reading",
+      "note": "比例0/.015/.025/.030分别为0/1.5/2.5/3%；不使用未核实的kg/m³水泥基准。",
+      "human_confirmation": "待核查",
+      "admitted_to_model": false,
+      "explicit_absence_quote": "had no polymer addition"
+    },
+    {
+      "source_row": 942,
+      "specimen_id": "SX1",
+      "registry_pdf_filename": "2025-Yu Zhang-[Mechanism of Highly Adsorbent Macromolecular].pdf",
+      "paper": "Zhang2025",
+      "feature": "steel_mass_ratio_cement",
+      "value": 0.16,
+      "unit": "kg/kg",
+      "basis": "cement_mass",
+      "evidence": [
+        {
+          "page": 5,
+          "location": "Table3，SX1–SX4及水泥归一化表注",
+          "quote": "flowability. The mix proportions are shown in Table 3.\n\n2.3 \u0007Sample Preparation\n\nThe mixing details of the slurry are as follows: Firstly, cement, mineral powder, fly ash,\nsilica fume, and polymer are mixed at low speed for 3 min according to the ratio. Next,\nquartz sand is added and mixed for another 3 min at low speed. Subsequently, water and\nwater-reducing agent are slowly added to the mixture of aggregate and binder materials,\nand mixed at high speed for 3 min. Finally, steel fibers are added and mixed for 3 more\nminutes. After the flowability stops changing, the mixture is cast underwater. After 24 h\nin the mold, the specimens are demolded and cured in water. The molding of UN-UHPC",
+          "image_path": "/workspace/underwater-concrete-ml/outputs/priority-paper-review-v1/Zhang2025-p5.png",
+          "image_sha256": "8236734e4980c91025f9b4ca47684d497f26217a5fa29befc960ad737ee987e8",
+          "source_pdf_sha256": "532ae12b76a06f402ee5362acc4f60f6e136580bfb1cd8790be3902083ea5324"
+        }
+      ],
+      "method": "curated_source_reading",
+      "note": "kg钢纤维/kg水泥，不是体积分数。",
+      "human_confirmation": "待核查",
+      "admitted_to_model": false
+    },
+    {
+      "source_row": 943,
+      "specimen_id": "SX2",
+      "registry_pdf_filename": "2025-Yu Zhang-[Mechanism of Highly Adsorbent Macromolecular].pdf",
+      "paper": "Zhang2025",
+      "feature": "material_system",
+      "value": "UN-UHPC",
+      "unit": "category",
+      "basis": "材料体系",
+      "evidence": [
+        {
+          "page": 5,
+          "quote": "To investigate the effects of polymer on the workability, mechanical properties, and micro-\nstructure of underwater non-dispersive ultra-high performance concrete (UN-UHPC), four\ngroups with polymer dosages of 0%, 1.5%, 2.5%, and 3% were established. These dosages",
+          "location": "§2.2 本研究四组UN-UHPC"
+        }
+      ],
+      "method": "curated_source_reading",
+      "note": "",
+      "human_confirmation": "待核查",
+      "admitted_to_model": false
+    },
+    {
+      "source_row": 943,
+      "specimen_id": "SX2",
+      "registry_pdf_filename": "2025-Yu Zhang-[Mechanism of Highly Adsorbent Macromolecular].pdf",
+      "paper": "Zhang2025",
+      "feature": "antiwashout_product",
+      "value": "UWB-II polymer blend",
+      "unit": "category",
+      "basis": "产品/聚合物名称，不表示产品等效",
+      "evidence": [
+        {
+          "page": 4,
+          "quote": "achieve excellent strength and durability [35]. Additionally, steel fibers were incorpo-\nrated into the mixture to enhance the strength of UHPC. The steel fibers, with a diam-\neter of 0.2 mm and an average length of 15 mm, were coated with copper. The polymer\nused was UWB-II type flocculant, developed by the China Petroleum Engineering Tech-\nnology Research Institute, primarily composed of polysaccharide polymer thickener,\nconcrete fluidizer, and concrete setting time regulator. The molecular formula of the\npolymer is shown in Fig. 1.",
+          "location": "§2.1 钢纤维和UWB-II产品组成"
+        }
+      ],
+      "method": "curated_source_reading",
+      "note": "混合产品，不等同于纯聚合物或其他AWA产品。",
+      "human_confirmation": "待核查",
+      "admitted_to_model": false
+    },
+    {
+      "source_row": 943,
+      "specimen_id": "SX2",
+      "registry_pdf_filename": "2025-Yu Zhang-[Mechanism of Highly Adsorbent Macromolecular].pdf",
+      "paper": "Zhang2025",
+      "feature": "fiber_type",
+      "value": "copper-coated steel",
+      "unit": "category",
+      "basis": "本轮已定位的纤维种类，不推断其他纤维不存在",
+      "evidence": [
+        {
+          "page": 4,
+          "quote": "achieve excellent strength and durability [35]. Additionally, steel fibers were incorpo-\nrated into the mixture to enhance the strength of UHPC. The steel fibers, with a diam-\neter of 0.2 mm and an average length of 15 mm, were coated with copper. The polymer\nused was UWB-II type flocculant, developed by the China Petroleum Engineering Tech-\nnology Research Institute, primarily composed of polysaccharide polymer thickener,\nconcrete fluidizer, and concrete setting time regulator. The molecular formula of the\npolymer is shown in Fig. 1.",
+          "location": "§2.1 钢纤维和UWB-II产品组成"
+        }
+      ],
+      "method": "curated_source_reading",
+      "note": "",
+      "human_confirmation": "待核查",
+      "admitted_to_model": false
+    },
+    {
+      "source_row": 943,
+      "specimen_id": "SX2",
+      "registry_pdf_filename": "2025-Yu Zhang-[Mechanism of Highly Adsorbent Macromolecular].pdf",
+      "paper": "Zhang2025",
+      "feature": "polymer_pct_cement",
+      "value": 1.5,
+      "unit": "%",
+      "basis": "cement_mass",
+      "evidence": [
+        {
+          "page": 5,
+          "location": "§2.2，聚合物掺量与基准",
+          "quote": "groups with polymer dosages of 0%, 1.5%, 2.5%, and 3% were established. These dosages\nwere selected based on previous studies [21, 22] that demonstrated optimal washout resist-\nance and mechanical performance within this range. Preliminary trials were conducted\nto ensure that the selected dosages provided sufficient flowability and washout resistance\nwithout compromising the structural integrity of the concrete. The polymer dosages were\nset at 0, 0.015, 0.025, and 0.030 of the cement mass for groups SX1, SX2, SX3, and SX4,\nrespectively. In the SX1 group, which had no polymer addition, there was severe dispersion\nunderwater. The SX2 group, with a very low polymer dosage, still experienced substan-\ntial slurry dispersion underwater. The SX4 group had the highest polymer dosage used for\nspecimen preparation. When the polymer content exceeded this amount, the slurry lost its\nflowability. The mix proportions are shown in Table 3.\n"
+        }
+      ],
+      "method": "curated_source_reading",
+      "note": "比例0/.015/.025/.030分别为0/1.5/2.5/3%；不使用未核实的kg/m³水泥基准。",
+      "human_confirmation": "待核查",
+      "admitted_to_model": false
+    },
+    {
+      "source_row": 943,
+      "specimen_id": "SX2",
+      "registry_pdf_filename": "2025-Yu Zhang-[Mechanism of Highly Adsorbent Macromolecular].pdf",
+      "paper": "Zhang2025",
+      "feature": "steel_mass_ratio_cement",
+      "value": 0.16,
+      "unit": "kg/kg",
+      "basis": "cement_mass",
+      "evidence": [
+        {
+          "page": 5,
+          "location": "Table3，SX1–SX4及水泥归一化表注",
+          "quote": "flowability. The mix proportions are shown in Table 3.\n\n2.3 \u0007Sample Preparation\n\nThe mixing details of the slurry are as follows: Firstly, cement, mineral powder, fly ash,\nsilica fume, and polymer are mixed at low speed for 3 min according to the ratio. Next,\nquartz sand is added and mixed for another 3 min at low speed. Subsequently, water and\nwater-reducing agent are slowly added to the mixture of aggregate and binder materials,\nand mixed at high speed for 3 min. Finally, steel fibers are added and mixed for 3 more\nminutes. After the flowability stops changing, the mixture is cast underwater. After 24 h\nin the mold, the specimens are demolded and cured in water. The molding of UN-UHPC",
+          "image_path": "/workspace/underwater-concrete-ml/outputs/priority-paper-review-v1/Zhang2025-p5.png",
+          "image_sha256": "8236734e4980c91025f9b4ca47684d497f26217a5fa29befc960ad737ee987e8",
+          "source_pdf_sha256": "532ae12b76a06f402ee5362acc4f60f6e136580bfb1cd8790be3902083ea5324"
+        }
+      ],
+      "method": "curated_source_reading",
+      "note": "kg钢纤维/kg水泥，不是体积分数。",
+      "human_confirmation": "待核查",
+      "admitted_to_model": false
+    },
+    {
+      "source_row": 944,
+      "specimen_id": "SX3",
+      "registry_pdf_filename": "2025-Yu Zhang-[Mechanism of Highly Adsorbent Macromolecular].pdf",
+      "paper": "Zhang2025",
+      "feature": "material_system",
+      "value": "UN-UHPC",
+      "unit": "category",
+      "basis": "材料体系",
+      "evidence": [
+        {
+          "page": 5,
+          "quote": "To investigate the effects of polymer on the workability, mechanical properties, and micro-\nstructure of underwater non-dispersive ultra-high performance concrete (UN-UHPC), four\ngroups with polymer dosages of 0%, 1.5%, 2.5%, and 3% were established. These dosages",
+          "location": "§2.2 本研究四组UN-UHPC"
+        }
+      ],
+      "method": "curated_source_reading",
+      "note": "",
+      "human_confirmation": "待核查",
+      "admitted_to_model": false
+    },
+    {
+      "source_row": 944,
+      "specimen_id": "SX3",
+      "registry_pdf_filename": "2025-Yu Zhang-[Mechanism of Highly Adsorbent Macromolecular].pdf",
+      "paper": "Zhang2025",
+      "feature": "antiwashout_product",
+      "value": "UWB-II polymer blend",
+      "unit": "category",
+      "basis": "产品/聚合物名称，不表示产品等效",
+      "evidence": [
+        {
+          "page": 4,
+          "quote": "achieve excellent strength and durability [35]. Additionally, steel fibers were incorpo-\nrated into the mixture to enhance the strength of UHPC. The steel fibers, with a diam-\neter of 0.2 mm and an average length of 15 mm, were coated with copper. The polymer\nused was UWB-II type flocculant, developed by the China Petroleum Engineering Tech-\nnology Research Institute, primarily composed of polysaccharide polymer thickener,\nconcrete fluidizer, and concrete setting time regulator. The molecular formula of the\npolymer is shown in Fig. 1.",
+          "location": "§2.1 钢纤维和UWB-II产品组成"
+        }
+      ],
+      "method": "curated_source_reading",
+      "note": "混合产品，不等同于纯聚合物或其他AWA产品。",
+      "human_confirmation": "待核查",
+      "admitted_to_model": false
+    },
+    {
+      "source_row": 944,
+      "specimen_id": "SX3",
+      "registry_pdf_filename": "2025-Yu Zhang-[Mechanism of Highly Adsorbent Macromolecular].pdf",
+      "paper": "Zhang2025",
+      "feature": "fiber_type",
+      "value": "copper-coated steel",
+      "unit": "category",
+      "basis": "本轮已定位的纤维种类，不推断其他纤维不存在",
+      "evidence": [
+        {
+          "page": 4,
+          "quote": "achieve excellent strength and durability [35]. Additionally, steel fibers were incorpo-\nrated into the mixture to enhance the strength of UHPC. The steel fibers, with a diam-\neter of 0.2 mm and an average length of 15 mm, were coated with copper. The polymer\nused was UWB-II type flocculant, developed by the China Petroleum Engineering Tech-\nnology Research Institute, primarily composed of polysaccharide polymer thickener,\nconcrete fluidizer, and concrete setting time regulator. The molecular formula of the\npolymer is shown in Fig. 1.",
+          "location": "§2.1 钢纤维和UWB-II产品组成"
+        }
+      ],
+      "method": "curated_source_reading",
+      "note": "",
+      "human_confirmation": "待核查",
+      "admitted_to_model": false
+    },
+    {
+      "source_row": 944,
+      "specimen_id": "SX3",
+      "registry_pdf_filename": "2025-Yu Zhang-[Mechanism of Highly Adsorbent Macromolecular].pdf",
+      "paper": "Zhang2025",
+      "feature": "polymer_pct_cement",
+      "value": 2.5,
+      "unit": "%",
+      "basis": "cement_mass",
+      "evidence": [
+        {
+          "page": 5,
+          "location": "§2.2，聚合物掺量与基准",
+          "quote": "groups with polymer dosages of 0%, 1.5%, 2.5%, and 3% were established. These dosages\nwere selected based on previous studies [21, 22] that demonstrated optimal washout resist-\nance and mechanical performance within this range. Preliminary trials were conducted\nto ensure that the selected dosages provided sufficient flowability and washout resistance\nwithout compromising the structural integrity of the concrete. The polymer dosages were\nset at 0, 0.015, 0.025, and 0.030 of the cement mass for groups SX1, SX2, SX3, and SX4,\nrespectively. In the SX1 group, which had no polymer addition, there was severe dispersion\nunderwater. The SX2 group, with a very low polymer dosage, still experienced substan-\ntial slurry dispersion underwater. The SX4 group had the highest polymer dosage used for\nspecimen preparation. When the polymer content exceeded this amount, the slurry lost its\nflowability. The mix proportions are shown in Table 3.\n"
+        }
+      ],
+      "method": "curated_source_reading",
+      "note": "比例0/.015/.025/.030分别为0/1.5/2.5/3%；不使用未核实的kg/m³水泥基准。",
+      "human_confirmation": "待核查",
+      "admitted_to_model": false
+    },
+    {
+      "source_row": 944,
+      "specimen_id": "SX3",
+      "registry_pdf_filename": "2025-Yu Zhang-[Mechanism of Highly Adsorbent Macromolecular].pdf",
+      "paper": "Zhang2025",
+      "feature": "steel_mass_ratio_cement",
+      "value": 0.16,
+      "unit": "kg/kg",
+      "basis": "cement_mass",
+      "evidence": [
+        {
+          "page": 5,
+          "location": "Table3，SX1–SX4及水泥归一化表注",
+          "quote": "flowability. The mix proportions are shown in Table 3.\n\n2.3 \u0007Sample Preparation\n\nThe mixing details of the slurry are as follows: Firstly, cement, mineral powder, fly ash,\nsilica fume, and polymer are mixed at low speed for 3 min according to the ratio. Next,\nquartz sand is added and mixed for another 3 min at low speed. Subsequently, water and\nwater-reducing agent are slowly added to the mixture of aggregate and binder materials,\nand mixed at high speed for 3 min. Finally, steel fibers are added and mixed for 3 more\nminutes. After the flowability stops changing, the mixture is cast underwater. After 24 h\nin the mold, the specimens are demolded and cured in water. The molding of UN-UHPC",
+          "image_path": "/workspace/underwater-concrete-ml/outputs/priority-paper-review-v1/Zhang2025-p5.png",
+          "image_sha256": "8236734e4980c91025f9b4ca47684d497f26217a5fa29befc960ad737ee987e8",
+          "source_pdf_sha256": "532ae12b76a06f402ee5362acc4f60f6e136580bfb1cd8790be3902083ea5324"
+        }
+      ],
+      "method": "curated_source_reading",
+      "note": "kg钢纤维/kg水泥，不是体积分数。",
+      "human_confirmation": "待核查",
+      "admitted_to_model": false
+    },
+    {
+      "source_row": 945,
+      "specimen_id": "SX4",
+      "registry_pdf_filename": "2025-Yu Zhang-[Mechanism of Highly Adsorbent Macromolecular].pdf",
+      "paper": "Zhang2025",
+      "feature": "material_system",
+      "value": "UN-UHPC",
+      "unit": "category",
+      "basis": "材料体系",
+      "evidence": [
+        {
+          "page": 5,
+          "quote": "To investigate the effects of polymer on the workability, mechanical properties, and micro-\nstructure of underwater non-dispersive ultra-high performance concrete (UN-UHPC), four\ngroups with polymer dosages of 0%, 1.5%, 2.5%, and 3% were established. These dosages",
+          "location": "§2.2 本研究四组UN-UHPC"
+        }
+      ],
+      "method": "curated_source_reading",
+      "note": "",
+      "human_confirmation": "待核查",
+      "admitted_to_model": false
+    },
+    {
+      "source_row": 945,
+      "specimen_id": "SX4",
+      "registry_pdf_filename": "2025-Yu Zhang-[Mechanism of Highly Adsorbent Macromolecular].pdf",
+      "paper": "Zhang2025",
+      "feature": "antiwashout_product",
+      "value": "UWB-II polymer blend",
+      "unit": "category",
+      "basis": "产品/聚合物名称，不表示产品等效",
+      "evidence": [
+        {
+          "page": 4,
+          "quote": "achieve excellent strength and durability [35]. Additionally, steel fibers were incorpo-\nrated into the mixture to enhance the strength of UHPC. The steel fibers, with a diam-\neter of 0.2 mm and an average length of 15 mm, were coated with copper. The polymer\nused was UWB-II type flocculant, developed by the China Petroleum Engineering Tech-\nnology Research Institute, primarily composed of polysaccharide polymer thickener,\nconcrete fluidizer, and concrete setting time regulator. The molecular formula of the\npolymer is shown in Fig. 1.",
+          "location": "§2.1 钢纤维和UWB-II产品组成"
+        }
+      ],
+      "method": "curated_source_reading",
+      "note": "混合产品，不等同于纯聚合物或其他AWA产品。",
+      "human_confirmation": "待核查",
+      "admitted_to_model": false
+    },
+    {
+      "source_row": 945,
+      "specimen_id": "SX4",
+      "registry_pdf_filename": "2025-Yu Zhang-[Mechanism of Highly Adsorbent Macromolecular].pdf",
+      "paper": "Zhang2025",
+      "feature": "fiber_type",
+      "value": "copper-coated steel",
+      "unit": "category",
+      "basis": "本轮已定位的纤维种类，不推断其他纤维不存在",
+      "evidence": [
+        {
+          "page": 4,
+          "quote": "achieve excellent strength and durability [35]. Additionally, steel fibers were incorpo-\nrated into the mixture to enhance the strength of UHPC. The steel fibers, with a diam-\neter of 0.2 mm and an average length of 15 mm, were coated with copper. The polymer\nused was UWB-II type flocculant, developed by the China Petroleum Engineering Tech-\nnology Research Institute, primarily composed of polysaccharide polymer thickener,\nconcrete fluidizer, and concrete setting time regulator. The molecular formula of the\npolymer is shown in Fig. 1.",
+          "location": "§2.1 钢纤维和UWB-II产品组成"
+        }
+      ],
+      "method": "curated_source_reading",
+      "note": "",
+      "human_confirmation": "待核查",
+      "admitted_to_model": false
+    },
+    {
+      "source_row": 945,
+      "specimen_id": "SX4",
+      "registry_pdf_filename": "2025-Yu Zhang-[Mechanism of Highly Adsorbent Macromolecular].pdf",
+      "paper": "Zhang2025",
+      "feature": "polymer_pct_cement",
+      "value": 3,
+      "unit": "%",
+      "basis": "cement_mass",
+      "evidence": [
+        {
+          "page": 5,
+          "location": "§2.2，聚合物掺量与基准",
+          "quote": "groups with polymer dosages of 0%, 1.5%, 2.5%, and 3% were established. These dosages\nwere selected based on previous studies [21, 22] that demonstrated optimal washout resist-\nance and mechanical performance within this range. Preliminary trials were conducted\nto ensure that the selected dosages provided sufficient flowability and washout resistance\nwithout compromising the structural integrity of the concrete. The polymer dosages were\nset at 0, 0.015, 0.025, and 0.030 of the cement mass for groups SX1, SX2, SX3, and SX4,\nrespectively. In the SX1 group, which had no polymer addition, there was severe dispersion\nunderwater. The SX2 group, with a very low polymer dosage, still experienced substan-\ntial slurry dispersion underwater. The SX4 group had the highest polymer dosage used for\nspecimen preparation. When the polymer content exceeded this amount, the slurry lost its\nflowability. The mix proportions are shown in Table 3.\n"
+        }
+      ],
+      "method": "curated_source_reading",
+      "note": "比例0/.015/.025/.030分别为0/1.5/2.5/3%；不使用未核实的kg/m³水泥基准。",
+      "human_confirmation": "待核查",
+      "admitted_to_model": false
+    },
+    {
+      "source_row": 945,
+      "specimen_id": "SX4",
+      "registry_pdf_filename": "2025-Yu Zhang-[Mechanism of Highly Adsorbent Macromolecular].pdf",
+      "paper": "Zhang2025",
+      "feature": "steel_mass_ratio_cement",
+      "value": 0.16,
+      "unit": "kg/kg",
+      "basis": "cement_mass",
+      "evidence": [
+        {
+          "page": 5,
+          "location": "Table3，SX1–SX4及水泥归一化表注",
+          "quote": "flowability. The mix proportions are shown in Table 3.\n\n2.3 \u0007Sample Preparation\n\nThe mixing details of the slurry are as follows: Firstly, cement, mineral powder, fly ash,\nsilica fume, and polymer are mixed at low speed for 3 min according to the ratio. Next,\nquartz sand is added and mixed for another 3 min at low speed. Subsequently, water and\nwater-reducing agent are slowly added to the mixture of aggregate and binder materials,\nand mixed at high speed for 3 min. Finally, steel fibers are added and mixed for 3 more\nminutes. After the flowability stops changing, the mixture is cast underwater. After 24 h\nin the mold, the specimens are demolded and cured in water. The molding of UN-UHPC",
+          "image_path": "/workspace/underwater-concrete-ml/outputs/priority-paper-review-v1/Zhang2025-p5.png",
+          "image_sha256": "8236734e4980c91025f9b4ca47684d497f26217a5fa29befc960ad737ee987e8",
+          "source_pdf_sha256": "532ae12b76a06f402ee5362acc4f60f6e136580bfb1cd8790be3902083ea5324"
+        }
+      ],
+      "method": "curated_source_reading",
+      "note": "kg钢纤维/kg水泥，不是体积分数。",
+      "human_confirmation": "待核查",
+      "admitted_to_model": false
+    },
+    {
+      "source_row": 1077,
+      "specimen_id": "G0.7-1.5",
+      "registry_pdf_filename": "2026-Zainab M. Al-Selmi-[Experimental-and-Statistical-Optimization-of-Engineered].pdf",
+      "paper": "AlSelmi2026",
+      "feature": "material_system",
+      "value": "ECCUWC",
+      "unit": "category",
+      "basis": "材料体系",
+      "evidence": [
+        {
+          "page": 6,
+          "location": "§2.2–2.3，水下浇筑和命名",
+          "quote": "ﬁbers to obtain uniform dispersion and avoid ﬁber balling.\n  The prepared ECCUWC mixtures were subsequently cast underwater in a laboratory tank\nto simulate submerged casting conditions, and their ﬂowability and washout resistance\nwere evaluated under simulated realistic environments. The mix proportions of the six\nmixtures are presented in Table 4. All mixtures were labeled using a two-part code (e.g.,\nG0.7–1.5), where the ﬁrst number denotes the AWA dosage (% of total cementitious\nmaterial mass) and the second number represents the PVA ﬁber volume fraction (%\nby volume). This nomenclature was applied consistently throughout the experimental\nprogram and data analysis."
+        }
+      ],
+      "method": "curated_source_reading",
+      "note": "",
+      "human_confirmation": "待核查",
+      "admitted_to_model": false
+    },
+    {
+      "source_row": 1077,
+      "specimen_id": "G0.7-1.5",
+      "registry_pdf_filename": "2026-Zainab M. Al-Selmi-[Experimental-and-Statistical-Optimization-of-Engineered].pdf",
+      "paper": "AlSelmi2026",
+      "feature": "antiwashout_product",
+      "value": "welan-gum powder",
+      "unit": "category",
+      "basis": "产品/聚合物名称，不表示产品等效",
+      "evidence": [
+        {
+          "page": 5,
+          "quote": "pan-type mixer to ensure uniform blending of the constituents. The anti-washout admixture\n(AWA) was ﬁrst dissolved in approximately one-quarter of the total mixing water, which\nhad been preheated to about 95 °C, following the procedure reported in [15], to facilitate\ncomplete dispersion of the welan-gum powder. The prepared AWA solution was then\nallowed to cool to ambient temperature before being used in the mixing process.\n  The mixing procedure was carefully controlled to ensure homogeneity and to prevent",
+          "location": "§2.2 welan-gum powder"
+        }
+      ],
+      "method": "curated_source_reading",
+      "note": "",
+      "human_confirmation": "待核查",
+      "admitted_to_model": false
+    },
+    {
+      "source_row": 1077,
+      "specimen_id": "G0.7-1.5",
+      "registry_pdf_filename": "2026-Zainab M. Al-Selmi-[Experimental-and-Statistical-Optimization-of-Engineered].pdf",
+      "paper": "AlSelmi2026",
+      "feature": "fiber_type",
+      "value": "PVA",
+      "unit": "category",
+      "basis": "本轮已定位的纤维种类，不推断其他纤维不存在",
+      "evidence": [
+        {
+          "page": 5,
+          "quote": "                             Table 3. Polyvinyl alcohol fiber (PVA) properties*.\n                              parameter                  Unit         Standard\n                              Tensile strength           MPa          1788\n                              Modulus of Elasticity      GPa          58\n                              Ultimate elongation        %            <31\n                              Length                     mm           8\n                              Diameter equivalent        µm           40\n                              Alkali resistance          %            ≤ 96\n                              Hot water resistance       C°           ≥ 98\n                              Density                    g/cm3        1.28\n",
+          "location": "Table3 PVA密度1.28g/cm³"
+        }
+      ],
+      "method": "curated_source_reading",
+      "note": "",
+      "human_confirmation": "待核查",
+      "admitted_to_model": false
+    },
+    {
+      "source_row": 1077,
+      "specimen_id": "G0.7-1.5",
+      "registry_pdf_filename": "2026-Zainab M. Al-Selmi-[Experimental-and-Statistical-Optimization-of-Engineered].pdf",
+      "paper": "AlSelmi2026",
+      "feature": "awa_pct_binder",
+      "value": 0.7,
+      "unit": "%",
+      "basis": "binder_mass",
+      "evidence": [
+        {
+          "page": 6,
+          "location": "§2.2–2.3，水下浇筑和命名",
+          "quote": "ﬁbers to obtain uniform dispersion and avoid ﬁber balling.\n  The prepared ECCUWC mixtures were subsequently cast underwater in a laboratory tank\nto simulate submerged casting conditions, and their ﬂowability and washout resistance\nwere evaluated under simulated realistic environments. The mix proportions of the six\nmixtures are presented in Table 4. All mixtures were labeled using a two-part code (e.g.,\nG0.7–1.5), where the ﬁrst number denotes the AWA dosage (% of total cementitious\nmaterial mass) and the second number represents the PVA ﬁber volume fraction (%\nby volume). This nomenclature was applied consistently throughout the experimental\nprogram and data analysis."
+        }
+      ],
+      "method": "curated_source_reading",
+      "note": "胶凝材料质量百分比；不与Zhang水泥基准聚合物列合并。",
+      "human_confirmation": "待核查",
+      "admitted_to_model": false
+    },
+    {
+      "source_row": 1077,
+      "specimen_id": "G0.7-1.5",
+      "registry_pdf_filename": "2026-Zainab M. Al-Selmi-[Experimental-and-Statistical-Optimization-of-Engineered].pdf",
+      "paper": "AlSelmi2026",
+      "feature": "awa_mass_kg_m3",
+      "value": 10.5,
+      "unit": "kg/m3",
+      "basis": "mixture_volume",
+      "evidence": [
+        {
+          "page": 6,
+          "location": "Table4，6配方及kg/m³表头",
+          "quote": "    Table 4. ECCUWC mix quantity (kg/m3 ).\n    Group no.         OPC           FA          S          SP           AWA          W              PVA\n    G0.7–1.5          1202          301         564        18           10.5         605            19.2\n    G0.9–1.5          1202          301         564        19.5         13.5         605            19.2\n    G1.1–1.5          1202          301         564        21           16.5         605            19.2\n    G0.7–1.75         1202          301         564        19.5         10.5         605            22.4\n    G0.9–1.75         1202          301         564        21           13.5         605            22.4\n    G1.1–1.75         1202          301         564        22.5         16.5         605            22.4\n    Note: The column labeled “Water (kg/m3 )” corresponds to an eﬀective water-to-cementitious\n    materials ratio (w/cm) of approximately 0.40 for all mixtures.\n    The PVA ﬁber dosage is expressed in kg/m3 , equivalent to 1.5–1.75 vol % depending on the mixture.\n    All binder proportions (cement + ﬂy ash = 1502 kg/m3 ) were maintained constant across mixtures.\n\n\n",
+          "image_path": "/workspace/underwater-concrete-ml/outputs/priority-paper-review-v1/AlSelmi2026-p6.png",
+          "image_sha256": "62404b377d4ff679e1fc0a2d911e297a10cb6da11a22483fe8547d2f7b640123",
+          "source_pdf_sha256": "a32b3862ba887a190c669b035b6528494dc6f26a7450c5f35875ed0cd9bd6f8f"
+        }
+      ],
+      "method": "curated_source_reading",
+      "note": "原表4直接报告，胶材1502/1503矛盾另存，不从百分比重算。",
+      "human_confirmation": "待核查",
+      "admitted_to_model": false
+    },
+    {
+      "source_row": 1077,
+      "specimen_id": "G0.7-1.5",
+      "registry_pdf_filename": "2026-Zainab M. Al-Selmi-[Experimental-and-Statistical-Optimization-of-Engineered].pdf",
+      "paper": "AlSelmi2026",
+      "feature": "pva_vol_pct",
+      "value": 1.5,
+      "unit": "%",
+      "basis": "mixture_volume",
+      "evidence": [
+        {
+          "page": 6,
+          "location": "§2.2–2.3，水下浇筑和命名",
+          "quote": "ﬁbers to obtain uniform dispersion and avoid ﬁber balling.\n  The prepared ECCUWC mixtures were subsequently cast underwater in a laboratory tank\nto simulate submerged casting conditions, and their ﬂowability and washout resistance\nwere evaluated under simulated realistic environments. The mix proportions of the six\nmixtures are presented in Table 4. All mixtures were labeled using a two-part code (e.g.,\nG0.7–1.5), where the ﬁrst number denotes the AWA dosage (% of total cementitious\nmaterial mass) and the second number represents the PVA ﬁber volume fraction (%\nby volume). This nomenclature was applied consistently throughout the experimental\nprogram and data analysis."
+        },
+        {
+          "page": 6,
+          "location": "Table4，6配方及kg/m³表头",
+          "quote": "    Table 4. ECCUWC mix quantity (kg/m3 ).\n    Group no.         OPC           FA          S          SP           AWA          W              PVA\n    G0.7–1.5          1202          301         564        18           10.5         605            19.2\n    G0.9–1.5          1202          301         564        19.5         13.5         605            19.2\n    G1.1–1.5          1202          301         564        21           16.5         605            19.2\n    G0.7–1.75         1202          301         564        19.5         10.5         605            22.4\n    G0.9–1.75         1202          301         564        21           13.5         605            22.4\n    G1.1–1.75         1202          301         564        22.5         16.5         605            22.4\n    Note: The column labeled “Water (kg/m3 )” corresponds to an eﬀective water-to-cementitious\n    materials ratio (w/cm) of approximately 0.40 for all mixtures.\n    The PVA ﬁber dosage is expressed in kg/m3 , equivalent to 1.5–1.75 vol % depending on the mixture.\n    All binder proportions (cement + ﬂy ash = 1502 kg/m3 ) were maintained constant across mixtures.\n\n\n",
+          "image_path": "/workspace/underwater-concrete-ml/outputs/priority-paper-review-v1/AlSelmi2026-p6.png",
+          "image_sha256": "62404b377d4ff679e1fc0a2d911e297a10cb6da11a22483fe8547d2f7b640123",
+          "source_pdf_sha256": "a32b3862ba887a190c669b035b6528494dc6f26a7450c5f35875ed0cd9bd6f8f"
+        }
+      ],
+      "method": "curated_source_reading",
+      "note": "命名规则和表4共同定位配方。",
+      "human_confirmation": "待核查",
+      "admitted_to_model": false
+    },
+    {
+      "source_row": 1077,
+      "specimen_id": "G0.7-1.5",
+      "registry_pdf_filename": "2026-Zainab M. Al-Selmi-[Experimental-and-Statistical-Optimization-of-Engineered].pdf",
+      "paper": "AlSelmi2026",
+      "feature": "pva_density_kg_m3",
+      "value": 1280,
+      "unit": "kg/m3",
+      "basis": "fiber_volume",
+      "evidence": [
+        {
+          "page": 5,
+          "quote": "                             Table 3. Polyvinyl alcohol fiber (PVA) properties*.\n                              parameter                  Unit         Standard\n                              Tensile strength           MPa          1788\n                              Modulus of Elasticity      GPa          58\n                              Ultimate elongation        %            <31\n                              Length                     mm           8\n                              Diameter equivalent        µm           40\n                              Alkali resistance          %            ≤ 96\n                              Hot water resistance       C°           ≥ 98\n                              Density                    g/cm3        1.28\n",
+          "location": "Table3 PVA密度1.28g/cm³"
+        }
+      ],
+      "method": "curated_source_reading",
+      "note": "原文PVA密度1.28g/cm³×1000。",
+      "human_confirmation": "待核查",
+      "admitted_to_model": false
+    },
+    {
+      "source_row": 1077,
+      "specimen_id": "G0.7-1.5",
+      "registry_pdf_filename": "2026-Zainab M. Al-Selmi-[Experimental-and-Statistical-Optimization-of-Engineered].pdf",
+      "paper": "AlSelmi2026",
+      "feature": "pva_mass_kg_m3",
+      "value": 19.2,
+      "unit": "kg/m3",
+      "basis": "mixture_volume",
+      "evidence": [
+        {
+          "page": 5,
+          "quote": "                             Table 3. Polyvinyl alcohol fiber (PVA) properties*.\n                              parameter                  Unit         Standard\n                              Tensile strength           MPa          1788\n                              Modulus of Elasticity      GPa          58\n                              Ultimate elongation        %            <31\n                              Length                     mm           8\n                              Diameter equivalent        µm           40\n                              Alkali resistance          %            ≤ 96\n                              Hot water resistance       C°           ≥ 98\n                              Density                    g/cm3        1.28\n",
+          "location": "Table3 PVA密度1.28g/cm³"
+        },
+        {
+          "page": 6,
+          "location": "§2.2–2.3，水下浇筑和命名",
+          "quote": "ﬁbers to obtain uniform dispersion and avoid ﬁber balling.\n  The prepared ECCUWC mixtures were subsequently cast underwater in a laboratory tank\nto simulate submerged casting conditions, and their ﬂowability and washout resistance\nwere evaluated under simulated realistic environments. The mix proportions of the six\nmixtures are presented in Table 4. All mixtures were labeled using a two-part code (e.g.,\nG0.7–1.5), where the ﬁrst number denotes the AWA dosage (% of total cementitious\nmaterial mass) and the second number represents the PVA ﬁber volume fraction (%\nby volume). This nomenclature was applied consistently throughout the experimental\nprogram and data analysis."
+        },
+        {
+          "page": 6,
+          "location": "Table4，6配方及kg/m³表头",
+          "quote": "    Table 4. ECCUWC mix quantity (kg/m3 ).\n    Group no.         OPC           FA          S          SP           AWA          W              PVA\n    G0.7–1.5          1202          301         564        18           10.5         605            19.2\n    G0.9–1.5          1202          301         564        19.5         13.5         605            19.2\n    G1.1–1.5          1202          301         564        21           16.5         605            19.2\n    G0.7–1.75         1202          301         564        19.5         10.5         605            22.4\n    G0.9–1.75         1202          301         564        21           13.5         605            22.4\n    G1.1–1.75         1202          301         564        22.5         16.5         605            22.4\n    Note: The column labeled “Water (kg/m3 )” corresponds to an eﬀective water-to-cementitious\n    materials ratio (w/cm) of approximately 0.40 for all mixtures.\n    The PVA ﬁber dosage is expressed in kg/m3 , equivalent to 1.5–1.75 vol % depending on the mixture.\n    All binder proportions (cement + ﬂy ash = 1502 kg/m3 ) were maintained constant across mixtures.\n\n\n",
+          "image_path": "/workspace/underwater-concrete-ml/outputs/priority-paper-review-v1/AlSelmi2026-p6.png",
+          "image_sha256": "62404b377d4ff679e1fc0a2d911e297a10cb6da11a22483fe8547d2f7b640123",
+          "source_pdf_sha256": "a32b3862ba887a190c669b035b6528494dc6f26a7450c5f35875ed0cd9bd6f8f"
+        }
+      ],
+      "method": "pva_volume_density",
+      "note": "原文表4直接质量值，并以原文体积分数和PVA密度独立核对。",
+      "human_confirmation": "待核查",
+      "admitted_to_model": false,
+      "parameters": {
+        "vol_pct": 1.5,
+        "density_kg_m3": 1280
+      }
+    },
+    {
+      "source_row": 1078,
+      "specimen_id": "G0.9-1.5",
+      "registry_pdf_filename": "2026-Zainab M. Al-Selmi-[Experimental-and-Statistical-Optimization-of-Engineered].pdf",
+      "paper": "AlSelmi2026",
+      "feature": "material_system",
+      "value": "ECCUWC",
+      "unit": "category",
+      "basis": "材料体系",
+      "evidence": [
+        {
+          "page": 6,
+          "location": "§2.2–2.3，水下浇筑和命名",
+          "quote": "ﬁbers to obtain uniform dispersion and avoid ﬁber balling.\n  The prepared ECCUWC mixtures were subsequently cast underwater in a laboratory tank\nto simulate submerged casting conditions, and their ﬂowability and washout resistance\nwere evaluated under simulated realistic environments. The mix proportions of the six\nmixtures are presented in Table 4. All mixtures were labeled using a two-part code (e.g.,\nG0.7–1.5), where the ﬁrst number denotes the AWA dosage (% of total cementitious\nmaterial mass) and the second number represents the PVA ﬁber volume fraction (%\nby volume). This nomenclature was applied consistently throughout the experimental\nprogram and data analysis."
+        }
+      ],
+      "method": "curated_source_reading",
+      "note": "",
+      "human_confirmation": "待核查",
+      "admitted_to_model": false
+    },
+    {
+      "source_row": 1078,
+      "specimen_id": "G0.9-1.5",
+      "registry_pdf_filename": "2026-Zainab M. Al-Selmi-[Experimental-and-Statistical-Optimization-of-Engineered].pdf",
+      "paper": "AlSelmi2026",
+      "feature": "antiwashout_product",
+      "value": "welan-gum powder",
+      "unit": "category",
+      "basis": "产品/聚合物名称，不表示产品等效",
+      "evidence": [
+        {
+          "page": 5,
+          "quote": "pan-type mixer to ensure uniform blending of the constituents. The anti-washout admixture\n(AWA) was ﬁrst dissolved in approximately one-quarter of the total mixing water, which\nhad been preheated to about 95 °C, following the procedure reported in [15], to facilitate\ncomplete dispersion of the welan-gum powder. The prepared AWA solution was then\nallowed to cool to ambient temperature before being used in the mixing process.\n  The mixing procedure was carefully controlled to ensure homogeneity and to prevent",
+          "location": "§2.2 welan-gum powder"
+        }
+      ],
+      "method": "curated_source_reading",
+      "note": "",
+      "human_confirmation": "待核查",
+      "admitted_to_model": false
+    },
+    {
+      "source_row": 1078,
+      "specimen_id": "G0.9-1.5",
+      "registry_pdf_filename": "2026-Zainab M. Al-Selmi-[Experimental-and-Statistical-Optimization-of-Engineered].pdf",
+      "paper": "AlSelmi2026",
+      "feature": "fiber_type",
+      "value": "PVA",
+      "unit": "category",
+      "basis": "本轮已定位的纤维种类，不推断其他纤维不存在",
+      "evidence": [
+        {
+          "page": 5,
+          "quote": "                             Table 3. Polyvinyl alcohol fiber (PVA) properties*.\n                              parameter                  Unit         Standard\n                              Tensile strength           MPa          1788\n                              Modulus of Elasticity      GPa          58\n                              Ultimate elongation        %            <31\n                              Length                     mm           8\n                              Diameter equivalent        µm           40\n                              Alkali resistance          %            ≤ 96\n                              Hot water resistance       C°           ≥ 98\n                              Density                    g/cm3        1.28\n",
+          "location": "Table3 PVA密度1.28g/cm³"
+        }
+      ],
+      "method": "curated_source_reading",
+      "note": "",
+      "human_confirmation": "待核查",
+      "admitted_to_model": false
+    },
+    {
+      "source_row": 1078,
+      "specimen_id": "G0.9-1.5",
+      "registry_pdf_filename": "2026-Zainab M. Al-Selmi-[Experimental-and-Statistical-Optimization-of-Engineered].pdf",
+      "paper": "AlSelmi2026",
+      "feature": "awa_pct_binder",
+      "value": 0.9,
+      "unit": "%",
+      "basis": "binder_mass",
+      "evidence": [
+        {
+          "page": 6,
+          "location": "§2.2–2.3，水下浇筑和命名",
+          "quote": "ﬁbers to obtain uniform dispersion and avoid ﬁber balling.\n  The prepared ECCUWC mixtures were subsequently cast underwater in a laboratory tank\nto simulate submerged casting conditions, and their ﬂowability and washout resistance\nwere evaluated under simulated realistic environments. The mix proportions of the six\nmixtures are presented in Table 4. All mixtures were labeled using a two-part code (e.g.,\nG0.7–1.5), where the ﬁrst number denotes the AWA dosage (% of total cementitious\nmaterial mass) and the second number represents the PVA ﬁber volume fraction (%\nby volume). This nomenclature was applied consistently throughout the experimental\nprogram and data analysis."
+        }
+      ],
+      "method": "curated_source_reading",
+      "note": "胶凝材料质量百分比；不与Zhang水泥基准聚合物列合并。",
+      "human_confirmation": "待核查",
+      "admitted_to_model": false
+    },
+    {
+      "source_row": 1078,
+      "specimen_id": "G0.9-1.5",
+      "registry_pdf_filename": "2026-Zainab M. Al-Selmi-[Experimental-and-Statistical-Optimization-of-Engineered].pdf",
+      "paper": "AlSelmi2026",
+      "feature": "awa_mass_kg_m3",
+      "value": 13.5,
+      "unit": "kg/m3",
+      "basis": "mixture_volume",
+      "evidence": [
+        {
+          "page": 6,
+          "location": "Table4，6配方及kg/m³表头",
+          "quote": "    Table 4. ECCUWC mix quantity (kg/m3 ).\n    Group no.         OPC           FA          S          SP           AWA          W              PVA\n    G0.7–1.5          1202          301         564        18           10.5         605            19.2\n    G0.9–1.5          1202          301         564        19.5         13.5         605            19.2\n    G1.1–1.5          1202          301         564        21           16.5         605            19.2\n    G0.7–1.75         1202          301         564        19.5         10.5         605            22.4\n    G0.9–1.75         1202          301         564        21           13.5         605            22.4\n    G1.1–1.75         1202          301         564        22.5         16.5         605            22.4\n    Note: The column labeled “Water (kg/m3 )” corresponds to an eﬀective water-to-cementitious\n    materials ratio (w/cm) of approximately 0.40 for all mixtures.\n    The PVA ﬁber dosage is expressed in kg/m3 , equivalent to 1.5–1.75 vol % depending on the mixture.\n    All binder proportions (cement + ﬂy ash = 1502 kg/m3 ) were maintained constant across mixtures.\n\n\n",
+          "image_path": "/workspace/underwater-concrete-ml/outputs/priority-paper-review-v1/AlSelmi2026-p6.png",
+          "image_sha256": "62404b377d4ff679e1fc0a2d911e297a10cb6da11a22483fe8547d2f7b640123",
+          "source_pdf_sha256": "a32b3862ba887a190c669b035b6528494dc6f26a7450c5f35875ed0cd9bd6f8f"
+        }
+      ],
+      "method": "curated_source_reading",
+      "note": "原表4直接报告，胶材1502/1503矛盾另存，不从百分比重算。",
+      "human_confirmation": "待核查",
+      "admitted_to_model": false
+    },
+    {
+      "source_row": 1078,
+      "specimen_id": "G0.9-1.5",
+      "registry_pdf_filename": "2026-Zainab M. Al-Selmi-[Experimental-and-Statistical-Optimization-of-Engineered].pdf",
+      "paper": "AlSelmi2026",
+      "feature": "pva_vol_pct",
+      "value": 1.5,
+      "unit": "%",
+      "basis": "mixture_volume",
+      "evidence": [
+        {
+          "page": 6,
+          "location": "§2.2–2.3，水下浇筑和命名",
+          "quote": "ﬁbers to obtain uniform dispersion and avoid ﬁber balling.\n  The prepared ECCUWC mixtures were subsequently cast underwater in a laboratory tank\nto simulate submerged casting conditions, and their ﬂowability and washout resistance\nwere evaluated under simulated realistic environments. The mix proportions of the six\nmixtures are presented in Table 4. All mixtures were labeled using a two-part code (e.g.,\nG0.7–1.5), where the ﬁrst number denotes the AWA dosage (% of total cementitious\nmaterial mass) and the second number represents the PVA ﬁber volume fraction (%\nby volume). This nomenclature was applied consistently throughout the experimental\nprogram and data analysis."
+        },
+        {
+          "page": 6,
+          "location": "Table4，6配方及kg/m³表头",
+          "quote": "    Table 4. ECCUWC mix quantity (kg/m3 ).\n    Group no.         OPC           FA          S          SP           AWA          W              PVA\n    G0.7–1.5          1202          301         564        18           10.5         605            19.2\n    G0.9–1.5          1202          301         564        19.5         13.5         605            19.2\n    G1.1–1.5          1202          301         564        21           16.5         605            19.2\n    G0.7–1.75         1202          301         564        19.5         10.5         605            22.4\n    G0.9–1.75         1202          301         564        21           13.5         605            22.4\n    G1.1–1.75         1202          301         564        22.5         16.5         605            22.4\n    Note: The column labeled “Water (kg/m3 )” corresponds to an eﬀective water-to-cementitious\n    materials ratio (w/cm) of approximately 0.40 for all mixtures.\n    The PVA ﬁber dosage is expressed in kg/m3 , equivalent to 1.5–1.75 vol % depending on the mixture.\n    All binder proportions (cement + ﬂy ash = 1502 kg/m3 ) were maintained constant across mixtures.\n\n\n",
+          "image_path": "/workspace/underwater-concrete-ml/outputs/priority-paper-review-v1/AlSelmi2026-p6.png",
+          "image_sha256": "62404b377d4ff679e1fc0a2d911e297a10cb6da11a22483fe8547d2f7b640123",
+          "source_pdf_sha256": "a32b3862ba887a190c669b035b6528494dc6f26a7450c5f35875ed0cd9bd6f8f"
+        }
+      ],
+      "method": "curated_source_reading",
+      "note": "命名规则和表4共同定位配方。",
+      "human_confirmation": "待核查",
+      "admitted_to_model": false
+    },
+    {
+      "source_row": 1078,
+      "specimen_id": "G0.9-1.5",
+      "registry_pdf_filename": "2026-Zainab M. Al-Selmi-[Experimental-and-Statistical-Optimization-of-Engineered].pdf",
+      "paper": "AlSelmi2026",
+      "feature": "pva_density_kg_m3",
+      "value": 1280,
+      "unit": "kg/m3",
+      "basis": "fiber_volume",
+      "evidence": [
+        {
+          "page": 5,
+          "quote": "                             Table 3. Polyvinyl alcohol fiber (PVA) properties*.\n                              parameter                  Unit         Standard\n                              Tensile strength           MPa          1788\n                              Modulus of Elasticity      GPa          58\n                              Ultimate elongation        %            <31\n                              Length                     mm           8\n                              Diameter equivalent        µm           40\n                              Alkali resistance          %            ≤ 96\n                              Hot water resistance       C°           ≥ 98\n                              Density                    g/cm3        1.28\n",
+          "location": "Table3 PVA密度1.28g/cm³"
+        }
+      ],
+      "method": "curated_source_reading",
+      "note": "原文PVA密度1.28g/cm³×1000。",
+      "human_confirmation": "待核查",
+      "admitted_to_model": false
+    },
+    {
+      "source_row": 1078,
+      "specimen_id": "G0.9-1.5",
+      "registry_pdf_filename": "2026-Zainab M. Al-Selmi-[Experimental-and-Statistical-Optimization-of-Engineered].pdf",
+      "paper": "AlSelmi2026",
+      "feature": "pva_mass_kg_m3",
+      "value": 19.2,
+      "unit": "kg/m3",
+      "basis": "mixture_volume",
+      "evidence": [
+        {
+          "page": 5,
+          "quote": "                             Table 3. Polyvinyl alcohol fiber (PVA) properties*.\n                              parameter                  Unit         Standard\n                              Tensile strength           MPa          1788\n                              Modulus of Elasticity      GPa          58\n                              Ultimate elongation        %            <31\n                              Length                     mm           8\n                              Diameter equivalent        µm           40\n                              Alkali resistance          %            ≤ 96\n                              Hot water resistance       C°           ≥ 98\n                              Density                    g/cm3        1.28\n",
+          "location": "Table3 PVA密度1.28g/cm³"
+        },
+        {
+          "page": 6,
+          "location": "§2.2–2.3，水下浇筑和命名",
+          "quote": "ﬁbers to obtain uniform dispersion and avoid ﬁber balling.\n  The prepared ECCUWC mixtures were subsequently cast underwater in a laboratory tank\nto simulate submerged casting conditions, and their ﬂowability and washout resistance\nwere evaluated under simulated realistic environments. The mix proportions of the six\nmixtures are presented in Table 4. All mixtures were labeled using a two-part code (e.g.,\nG0.7–1.5), where the ﬁrst number denotes the AWA dosage (% of total cementitious\nmaterial mass) and the second number represents the PVA ﬁber volume fraction (%\nby volume). This nomenclature was applied consistently throughout the experimental\nprogram and data analysis."
+        },
+        {
+          "page": 6,
+          "location": "Table4，6配方及kg/m³表头",
+          "quote": "    Table 4. ECCUWC mix quantity (kg/m3 ).\n    Group no.         OPC           FA          S          SP           AWA          W              PVA\n    G0.7–1.5          1202          301         564        18           10.5         605            19.2\n    G0.9–1.5          1202          301         564        19.5         13.5         605            19.2\n    G1.1–1.5          1202          301         564        21           16.5         605            19.2\n    G0.7–1.75         1202          301         564        19.5         10.5         605            22.4\n    G0.9–1.75         1202          301         564        21           13.5         605            22.4\n    G1.1–1.75         1202          301         564        22.5         16.5         605            22.4\n    Note: The column labeled “Water (kg/m3 )” corresponds to an eﬀective water-to-cementitious\n    materials ratio (w/cm) of approximately 0.40 for all mixtures.\n    The PVA ﬁber dosage is expressed in kg/m3 , equivalent to 1.5–1.75 vol % depending on the mixture.\n    All binder proportions (cement + ﬂy ash = 1502 kg/m3 ) were maintained constant across mixtures.\n\n\n",
+          "image_path": "/workspace/underwater-concrete-ml/outputs/priority-paper-review-v1/AlSelmi2026-p6.png",
+          "image_sha256": "62404b377d4ff679e1fc0a2d911e297a10cb6da11a22483fe8547d2f7b640123",
+          "source_pdf_sha256": "a32b3862ba887a190c669b035b6528494dc6f26a7450c5f35875ed0cd9bd6f8f"
+        }
+      ],
+      "method": "pva_volume_density",
+      "note": "原文表4直接质量值，并以原文体积分数和PVA密度独立核对。",
+      "human_confirmation": "待核查",
+      "admitted_to_model": false,
+      "parameters": {
+        "vol_pct": 1.5,
+        "density_kg_m3": 1280
+      }
+    },
+    {
+      "source_row": 1079,
+      "specimen_id": "G1.1-1.5",
+      "registry_pdf_filename": "2026-Zainab M. Al-Selmi-[Experimental-and-Statistical-Optimization-of-Engineered].pdf",
+      "paper": "AlSelmi2026",
+      "feature": "material_system",
+      "value": "ECCUWC",
+      "unit": "category",
+      "basis": "材料体系",
+      "evidence": [
+        {
+          "page": 6,
+          "location": "§2.2–2.3，水下浇筑和命名",
+          "quote": "ﬁbers to obtain uniform dispersion and avoid ﬁber balling.\n  The prepared ECCUWC mixtures were subsequently cast underwater in a laboratory tank\nto simulate submerged casting conditions, and their ﬂowability and washout resistance\nwere evaluated under simulated realistic environments. The mix proportions of the six\nmixtures are presented in Table 4. All mixtures were labeled using a two-part code (e.g.,\nG0.7–1.5), where the ﬁrst number denotes the AWA dosage (% of total cementitious\nmaterial mass) and the second number represents the PVA ﬁber volume fraction (%\nby volume). This nomenclature was applied consistently throughout the experimental\nprogram and data analysis."
+        }
+      ],
+      "method": "curated_source_reading",
+      "note": "",
+      "human_confirmation": "待核查",
+      "admitted_to_model": false
+    },
+    {
+      "source_row": 1079,
+      "specimen_id": "G1.1-1.5",
+      "registry_pdf_filename": "2026-Zainab M. Al-Selmi-[Experimental-and-Statistical-Optimization-of-Engineered].pdf",
+      "paper": "AlSelmi2026",
+      "feature": "antiwashout_product",
+      "value": "welan-gum powder",
+      "unit": "category",
+      "basis": "产品/聚合物名称，不表示产品等效",
+      "evidence": [
+        {
+          "page": 5,
+          "quote": "pan-type mixer to ensure uniform blending of the constituents. The anti-washout admixture\n(AWA) was ﬁrst dissolved in approximately one-quarter of the total mixing water, which\nhad been preheated to about 95 °C, following the procedure reported in [15], to facilitate\ncomplete dispersion of the welan-gum powder. The prepared AWA solution was then\nallowed to cool to ambient temperature before being used in the mixing process.\n  The mixing procedure was carefully controlled to ensure homogeneity and to prevent",
+          "location": "§2.2 welan-gum powder"
+        }
+      ],
+      "method": "curated_source_reading",
+      "note": "",
+      "human_confirmation": "待核查",
+      "admitted_to_model": false
+    },
+    {
+      "source_row": 1079,
+      "specimen_id": "G1.1-1.5",
+      "registry_pdf_filename": "2026-Zainab M. Al-Selmi-[Experimental-and-Statistical-Optimization-of-Engineered].pdf",
+      "paper": "AlSelmi2026",
+      "feature": "fiber_type",
+      "value": "PVA",
+      "unit": "category",
+      "basis": "本轮已定位的纤维种类，不推断其他纤维不存在",
+      "evidence": [
+        {
+          "page": 5,
+          "quote": "                             Table 3. Polyvinyl alcohol fiber (PVA) properties*.\n                              parameter                  Unit         Standard\n                              Tensile strength           MPa          1788\n                              Modulus of Elasticity      GPa          58\n                              Ultimate elongation        %            <31\n                              Length                     mm           8\n                              Diameter equivalent        µm           40\n                              Alkali resistance          %            ≤ 96\n                              Hot water resistance       C°           ≥ 98\n                              Density                    g/cm3        1.28\n",
+          "location": "Table3 PVA密度1.28g/cm³"
+        }
+      ],
+      "method": "curated_source_reading",
+      "note": "",
+      "human_confirmation": "待核查",
+      "admitted_to_model": false
+    },
+    {
+      "source_row": 1079,
+      "specimen_id": "G1.1-1.5",
+      "registry_pdf_filename": "2026-Zainab M. Al-Selmi-[Experimental-and-Statistical-Optimization-of-Engineered].pdf",
+      "paper": "AlSelmi2026",
+      "feature": "awa_pct_binder",
+      "value": 1.1,
+      "unit": "%",
+      "basis": "binder_mass",
+      "evidence": [
+        {
+          "page": 6,
+          "location": "§2.2–2.3，水下浇筑和命名",
+          "quote": "ﬁbers to obtain uniform dispersion and avoid ﬁber balling.\n  The prepared ECCUWC mixtures were subsequently cast underwater in a laboratory tank\nto simulate submerged casting conditions, and their ﬂowability and washout resistance\nwere evaluated under simulated realistic environments. The mix proportions of the six\nmixtures are presented in Table 4. All mixtures were labeled using a two-part code (e.g.,\nG0.7–1.5), where the ﬁrst number denotes the AWA dosage (% of total cementitious\nmaterial mass) and the second number represents the PVA ﬁber volume fraction (%\nby volume). This nomenclature was applied consistently throughout the experimental\nprogram and data analysis."
+        }
+      ],
+      "method": "curated_source_reading",
+      "note": "胶凝材料质量百分比；不与Zhang水泥基准聚合物列合并。",
+      "human_confirmation": "待核查",
+      "admitted_to_model": false
+    },
+    {
+      "source_row": 1079,
+      "specimen_id": "G1.1-1.5",
+      "registry_pdf_filename": "2026-Zainab M. Al-Selmi-[Experimental-and-Statistical-Optimization-of-Engineered].pdf",
+      "paper": "AlSelmi2026",
+      "feature": "awa_mass_kg_m3",
+      "value": 16.5,
+      "unit": "kg/m3",
+      "basis": "mixture_volume",
+      "evidence": [
+        {
+          "page": 6,
+          "location": "Table4，6配方及kg/m³表头",
+          "quote": "    Table 4. ECCUWC mix quantity (kg/m3 ).\n    Group no.         OPC           FA          S          SP           AWA          W              PVA\n    G0.7–1.5          1202          301         564        18           10.5         605            19.2\n    G0.9–1.5          1202          301         564        19.5         13.5         605            19.2\n    G1.1–1.5          1202          301         564        21           16.5         605            19.2\n    G0.7–1.75         1202          301         564        19.5         10.5         605            22.4\n    G0.9–1.75         1202          301         564        21           13.5         605            22.4\n    G1.1–1.75         1202          301         564        22.5         16.5         605            22.4\n    Note: The column labeled “Water (kg/m3 )” corresponds to an eﬀective water-to-cementitious\n    materials ratio (w/cm) of approximately 0.40 for all mixtures.\n    The PVA ﬁber dosage is expressed in kg/m3 , equivalent to 1.5–1.75 vol % depending on the mixture.\n    All binder proportions (cement + ﬂy ash = 1502 kg/m3 ) were maintained constant across mixtures.\n\n\n",
+          "image_path": "/workspace/underwater-concrete-ml/outputs/priority-paper-review-v1/AlSelmi2026-p6.png",
+          "image_sha256": "62404b377d4ff679e1fc0a2d911e297a10cb6da11a22483fe8547d2f7b640123",
+          "source_pdf_sha256": "a32b3862ba887a190c669b035b6528494dc6f26a7450c5f35875ed0cd9bd6f8f"
+        }
+      ],
+      "method": "curated_source_reading",
+      "note": "原表4直接报告，胶材1502/1503矛盾另存，不从百分比重算。",
+      "human_confirmation": "待核查",
+      "admitted_to_model": false
+    },
+    {
+      "source_row": 1079,
+      "specimen_id": "G1.1-1.5",
+      "registry_pdf_filename": "2026-Zainab M. Al-Selmi-[Experimental-and-Statistical-Optimization-of-Engineered].pdf",
+      "paper": "AlSelmi2026",
+      "feature": "pva_vol_pct",
+      "value": 1.5,
+      "unit": "%",
+      "basis": "mixture_volume",
+      "evidence": [
+        {
+          "page": 6,
+          "location": "§2.2–2.3，水下浇筑和命名",
+          "quote": "ﬁbers to obtain uniform dispersion and avoid ﬁber balling.\n  The prepared ECCUWC mixtures were subsequently cast underwater in a laboratory tank\nto simulate submerged casting conditions, and their ﬂowability and washout resistance\nwere evaluated under simulated realistic environments. The mix proportions of the six\nmixtures are presented in Table 4. All mixtures were labeled using a two-part code (e.g.,\nG0.7–1.5), where the ﬁrst number denotes the AWA dosage (% of total cementitious\nmaterial mass) and the second number represents the PVA ﬁber volume fraction (%\nby volume). This nomenclature was applied consistently throughout the experimental\nprogram and data analysis."
+        },
+        {
+          "page": 6,
+          "location": "Table4，6配方及kg/m³表头",
+          "quote": "    Table 4. ECCUWC mix quantity (kg/m3 ).\n    Group no.         OPC           FA          S          SP           AWA          W              PVA\n    G0.7–1.5          1202          301         564        18           10.5         605            19.2\n    G0.9–1.5          1202          301         564        19.5         13.5         605            19.2\n    G1.1–1.5          1202          301         564        21           16.5         605            19.2\n    G0.7–1.75         1202          301         564        19.5         10.5         605            22.4\n    G0.9–1.75         1202          301         564        21           13.5         605            22.4\n    G1.1–1.75         1202          301         564        22.5         16.5         605            22.4\n    Note: The column labeled “Water (kg/m3 )” corresponds to an eﬀective water-to-cementitious\n    materials ratio (w/cm) of approximately 0.40 for all mixtures.\n    The PVA ﬁber dosage is expressed in kg/m3 , equivalent to 1.5–1.75 vol % depending on the mixture.\n    All binder proportions (cement + ﬂy ash = 1502 kg/m3 ) were maintained constant across mixtures.\n\n\n",
+          "image_path": "/workspace/underwater-concrete-ml/outputs/priority-paper-review-v1/AlSelmi2026-p6.png",
+          "image_sha256": "62404b377d4ff679e1fc0a2d911e297a10cb6da11a22483fe8547d2f7b640123",
+          "source_pdf_sha256": "a32b3862ba887a190c669b035b6528494dc6f26a7450c5f35875ed0cd9bd6f8f"
+        }
+      ],
+      "method": "curated_source_reading",
+      "note": "命名规则和表4共同定位配方。",
+      "human_confirmation": "待核查",
+      "admitted_to_model": false
+    },
+    {
+      "source_row": 1079,
+      "specimen_id": "G1.1-1.5",
+      "registry_pdf_filename": "2026-Zainab M. Al-Selmi-[Experimental-and-Statistical-Optimization-of-Engineered].pdf",
+      "paper": "AlSelmi2026",
+      "feature": "pva_density_kg_m3",
+      "value": 1280,
+      "unit": "kg/m3",
+      "basis": "fiber_volume",
+      "evidence": [
+        {
+          "page": 5,
+          "quote": "                             Table 3. Polyvinyl alcohol fiber (PVA) properties*.\n                              parameter                  Unit         Standard\n                              Tensile strength           MPa          1788\n                              Modulus of Elasticity      GPa          58\n                              Ultimate elongation        %            <31\n                              Length                     mm           8\n                              Diameter equivalent        µm           40\n                              Alkali resistance          %            ≤ 96\n                              Hot water resistance       C°           ≥ 98\n                              Density                    g/cm3        1.28\n",
+          "location": "Table3 PVA密度1.28g/cm³"
+        }
+      ],
+      "method": "curated_source_reading",
+      "note": "原文PVA密度1.28g/cm³×1000。",
+      "human_confirmation": "待核查",
+      "admitted_to_model": false
+    },
+    {
+      "source_row": 1079,
+      "specimen_id": "G1.1-1.5",
+      "registry_pdf_filename": "2026-Zainab M. Al-Selmi-[Experimental-and-Statistical-Optimization-of-Engineered].pdf",
+      "paper": "AlSelmi2026",
+      "feature": "pva_mass_kg_m3",
+      "value": 19.2,
+      "unit": "kg/m3",
+      "basis": "mixture_volume",
+      "evidence": [
+        {
+          "page": 5,
+          "quote": "                             Table 3. Polyvinyl alcohol fiber (PVA) properties*.\n                              parameter                  Unit         Standard\n                              Tensile strength           MPa          1788\n                              Modulus of Elasticity      GPa          58\n                              Ultimate elongation        %            <31\n                              Length                     mm           8\n                              Diameter equivalent        µm           40\n                              Alkali resistance          %            ≤ 96\n                              Hot water resistance       C°           ≥ 98\n                              Density                    g/cm3        1.28\n",
+          "location": "Table3 PVA密度1.28g/cm³"
+        },
+        {
+          "page": 6,
+          "location": "§2.2–2.3，水下浇筑和命名",
+          "quote": "ﬁbers to obtain uniform dispersion and avoid ﬁber balling.\n  The prepared ECCUWC mixtures were subsequently cast underwater in a laboratory tank\nto simulate submerged casting conditions, and their ﬂowability and washout resistance\nwere evaluated under simulated realistic environments. The mix proportions of the six\nmixtures are presented in Table 4. All mixtures were labeled using a two-part code (e.g.,\nG0.7–1.5), where the ﬁrst number denotes the AWA dosage (% of total cementitious\nmaterial mass) and the second number represents the PVA ﬁber volume fraction (%\nby volume). This nomenclature was applied consistently throughout the experimental\nprogram and data analysis."
+        },
+        {
+          "page": 6,
+          "location": "Table4，6配方及kg/m³表头",
+          "quote": "    Table 4. ECCUWC mix quantity (kg/m3 ).\n    Group no.         OPC           FA          S          SP           AWA          W              PVA\n    G0.7–1.5          1202          301         564        18           10.5         605            19.2\n    G0.9–1.5          1202          301         564        19.5         13.5         605            19.2\n    G1.1–1.5          1202          301         564        21           16.5         605            19.2\n    G0.7–1.75         1202          301         564        19.5         10.5         605            22.4\n    G0.9–1.75         1202          301         564        21           13.5         605            22.4\n    G1.1–1.75         1202          301         564        22.5         16.5         605            22.4\n    Note: The column labeled “Water (kg/m3 )” corresponds to an eﬀective water-to-cementitious\n    materials ratio (w/cm) of approximately 0.40 for all mixtures.\n    The PVA ﬁber dosage is expressed in kg/m3 , equivalent to 1.5–1.75 vol % depending on the mixture.\n    All binder proportions (cement + ﬂy ash = 1502 kg/m3 ) were maintained constant across mixtures.\n\n\n",
+          "image_path": "/workspace/underwater-concrete-ml/outputs/priority-paper-review-v1/AlSelmi2026-p6.png",
+          "image_sha256": "62404b377d4ff679e1fc0a2d911e297a10cb6da11a22483fe8547d2f7b640123",
+          "source_pdf_sha256": "a32b3862ba887a190c669b035b6528494dc6f26a7450c5f35875ed0cd9bd6f8f"
+        }
+      ],
+      "method": "pva_volume_density",
+      "note": "原文表4直接质量值，并以原文体积分数和PVA密度独立核对。",
+      "human_confirmation": "待核查",
+      "admitted_to_model": false,
+      "parameters": {
+        "vol_pct": 1.5,
+        "density_kg_m3": 1280
+      }
+    },
+    {
+      "source_row": 1080,
+      "specimen_id": "G0.7-1.75",
+      "registry_pdf_filename": "2026-Zainab M. Al-Selmi-[Experimental-and-Statistical-Optimization-of-Engineered].pdf",
+      "paper": "AlSelmi2026",
+      "feature": "material_system",
+      "value": "ECCUWC",
+      "unit": "category",
+      "basis": "材料体系",
+      "evidence": [
+        {
+          "page": 6,
+          "location": "§2.2–2.3，水下浇筑和命名",
+          "quote": "ﬁbers to obtain uniform dispersion and avoid ﬁber balling.\n  The prepared ECCUWC mixtures were subsequently cast underwater in a laboratory tank\nto simulate submerged casting conditions, and their ﬂowability and washout resistance\nwere evaluated under simulated realistic environments. The mix proportions of the six\nmixtures are presented in Table 4. All mixtures were labeled using a two-part code (e.g.,\nG0.7–1.5), where the ﬁrst number denotes the AWA dosage (% of total cementitious\nmaterial mass) and the second number represents the PVA ﬁber volume fraction (%\nby volume). This nomenclature was applied consistently throughout the experimental\nprogram and data analysis."
+        }
+      ],
+      "method": "curated_source_reading",
+      "note": "",
+      "human_confirmation": "待核查",
+      "admitted_to_model": false
+    },
+    {
+      "source_row": 1080,
+      "specimen_id": "G0.7-1.75",
+      "registry_pdf_filename": "2026-Zainab M. Al-Selmi-[Experimental-and-Statistical-Optimization-of-Engineered].pdf",
+      "paper": "AlSelmi2026",
+      "feature": "antiwashout_product",
+      "value": "welan-gum powder",
+      "unit": "category",
+      "basis": "产品/聚合物名称，不表示产品等效",
+      "evidence": [
+        {
+          "page": 5,
+          "quote": "pan-type mixer to ensure uniform blending of the constituents. The anti-washout admixture\n(AWA) was ﬁrst dissolved in approximately one-quarter of the total mixing water, which\nhad been preheated to about 95 °C, following the procedure reported in [15], to facilitate\ncomplete dispersion of the welan-gum powder. The prepared AWA solution was then\nallowed to cool to ambient temperature before being used in the mixing process.\n  The mixing procedure was carefully controlled to ensure homogeneity and to prevent",
+          "location": "§2.2 welan-gum powder"
+        }
+      ],
+      "method": "curated_source_reading",
+      "note": "",
+      "human_confirmation": "待核查",
+      "admitted_to_model": false
+    },
+    {
+      "source_row": 1080,
+      "specimen_id": "G0.7-1.75",
+      "registry_pdf_filename": "2026-Zainab M. Al-Selmi-[Experimental-and-Statistical-Optimization-of-Engineered].pdf",
+      "paper": "AlSelmi2026",
+      "feature": "fiber_type",
+      "value": "PVA",
+      "unit": "category",
+      "basis": "本轮已定位的纤维种类，不推断其他纤维不存在",
+      "evidence": [
+        {
+          "page": 5,
+          "quote": "                             Table 3. Polyvinyl alcohol fiber (PVA) properties*.\n                              parameter                  Unit         Standard\n                              Tensile strength           MPa          1788\n                              Modulus of Elasticity      GPa          58\n                              Ultimate elongation        %            <31\n                              Length                     mm           8\n                              Diameter equivalent        µm           40\n                              Alkali resistance          %            ≤ 96\n                              Hot water resistance       C°           ≥ 98\n                              Density                    g/cm3        1.28\n",
+          "location": "Table3 PVA密度1.28g/cm³"
+        }
+      ],
+      "method": "curated_source_reading",
+      "note": "",
+      "human_confirmation": "待核查",
+      "admitted_to_model": false
+    },
+    {
+      "source_row": 1080,
+      "specimen_id": "G0.7-1.75",
+      "registry_pdf_filename": "2026-Zainab M. Al-Selmi-[Experimental-and-Statistical-Optimization-of-Engineered].pdf",
+      "paper": "AlSelmi2026",
+      "feature": "awa_pct_binder",
+      "value": 0.7,
+      "unit": "%",
+      "basis": "binder_mass",
+      "evidence": [
+        {
+          "page": 6,
+          "location": "§2.2–2.3，水下浇筑和命名",
+          "quote": "ﬁbers to obtain uniform dispersion and avoid ﬁber balling.\n  The prepared ECCUWC mixtures were subsequently cast underwater in a laboratory tank\nto simulate submerged casting conditions, and their ﬂowability and washout resistance\nwere evaluated under simulated realistic environments. The mix proportions of the six\nmixtures are presented in Table 4. All mixtures were labeled using a two-part code (e.g.,\nG0.7–1.5), where the ﬁrst number denotes the AWA dosage (% of total cementitious\nmaterial mass) and the second number represents the PVA ﬁber volume fraction (%\nby volume). This nomenclature was applied consistently throughout the experimental\nprogram and data analysis."
+        }
+      ],
+      "method": "curated_source_reading",
+      "note": "胶凝材料质量百分比；不与Zhang水泥基准聚合物列合并。",
+      "human_confirmation": "待核查",
+      "admitted_to_model": false
+    },
+    {
+      "source_row": 1080,
+      "specimen_id": "G0.7-1.75",
+      "registry_pdf_filename": "2026-Zainab M. Al-Selmi-[Experimental-and-Statistical-Optimization-of-Engineered].pdf",
+      "paper": "AlSelmi2026",
+      "feature": "awa_mass_kg_m3",
+      "value": 10.5,
+      "unit": "kg/m3",
+      "basis": "mixture_volume",
+      "evidence": [
+        {
+          "page": 6,
+          "location": "Table4，6配方及kg/m³表头",
+          "quote": "    Table 4. ECCUWC mix quantity (kg/m3 ).\n    Group no.         OPC           FA          S          SP           AWA          W              PVA\n    G0.7–1.5          1202          301         564        18           10.5         605            19.2\n    G0.9–1.5          1202          301         564        19.5         13.5         605            19.2\n    G1.1–1.5          1202          301         564        21           16.5         605            19.2\n    G0.7–1.75         1202          301         564        19.5         10.5         605            22.4\n    G0.9–1.75         1202          301         564        21           13.5         605            22.4\n    G1.1–1.75         1202          301         564        22.5         16.5         605            22.4\n    Note: The column labeled “Water (kg/m3 )” corresponds to an eﬀective water-to-cementitious\n    materials ratio (w/cm) of approximately 0.40 for all mixtures.\n    The PVA ﬁber dosage is expressed in kg/m3 , equivalent to 1.5–1.75 vol % depending on the mixture.\n    All binder proportions (cement + ﬂy ash = 1502 kg/m3 ) were maintained constant across mixtures.\n\n\n",
+          "image_path": "/workspace/underwater-concrete-ml/outputs/priority-paper-review-v1/AlSelmi2026-p6.png",
+          "image_sha256": "62404b377d4ff679e1fc0a2d911e297a10cb6da11a22483fe8547d2f7b640123",
+          "source_pdf_sha256": "a32b3862ba887a190c669b035b6528494dc6f26a7450c5f35875ed0cd9bd6f8f"
+        }
+      ],
+      "method": "curated_source_reading",
+      "note": "原表4直接报告，胶材1502/1503矛盾另存，不从百分比重算。",
+      "human_confirmation": "待核查",
+      "admitted_to_model": false
+    },
+    {
+      "source_row": 1080,
+      "specimen_id": "G0.7-1.75",
+      "registry_pdf_filename": "2026-Zainab M. Al-Selmi-[Experimental-and-Statistical-Optimization-of-Engineered].pdf",
+      "paper": "AlSelmi2026",
+      "feature": "pva_vol_pct",
+      "value": 1.75,
+      "unit": "%",
+      "basis": "mixture_volume",
+      "evidence": [
+        {
+          "page": 6,
+          "location": "§2.2–2.3，水下浇筑和命名",
+          "quote": "ﬁbers to obtain uniform dispersion and avoid ﬁber balling.\n  The prepared ECCUWC mixtures were subsequently cast underwater in a laboratory tank\nto simulate submerged casting conditions, and their ﬂowability and washout resistance\nwere evaluated under simulated realistic environments. The mix proportions of the six\nmixtures are presented in Table 4. All mixtures were labeled using a two-part code (e.g.,\nG0.7–1.5), where the ﬁrst number denotes the AWA dosage (% of total cementitious\nmaterial mass) and the second number represents the PVA ﬁber volume fraction (%\nby volume). This nomenclature was applied consistently throughout the experimental\nprogram and data analysis."
+        },
+        {
+          "page": 6,
+          "location": "Table4，6配方及kg/m³表头",
+          "quote": "    Table 4. ECCUWC mix quantity (kg/m3 ).\n    Group no.         OPC           FA          S          SP           AWA          W              PVA\n    G0.7–1.5          1202          301         564        18           10.5         605            19.2\n    G0.9–1.5          1202          301         564        19.5         13.5         605            19.2\n    G1.1–1.5          1202          301         564        21           16.5         605            19.2\n    G0.7–1.75         1202          301         564        19.5         10.5         605            22.4\n    G0.9–1.75         1202          301         564        21           13.5         605            22.4\n    G1.1–1.75         1202          301         564        22.5         16.5         605            22.4\n    Note: The column labeled “Water (kg/m3 )” corresponds to an eﬀective water-to-cementitious\n    materials ratio (w/cm) of approximately 0.40 for all mixtures.\n    The PVA ﬁber dosage is expressed in kg/m3 , equivalent to 1.5–1.75 vol % depending on the mixture.\n    All binder proportions (cement + ﬂy ash = 1502 kg/m3 ) were maintained constant across mixtures.\n\n\n",
+          "image_path": "/workspace/underwater-concrete-ml/outputs/priority-paper-review-v1/AlSelmi2026-p6.png",
+          "image_sha256": "62404b377d4ff679e1fc0a2d911e297a10cb6da11a22483fe8547d2f7b640123",
+          "source_pdf_sha256": "a32b3862ba887a190c669b035b6528494dc6f26a7450c5f35875ed0cd9bd6f8f"
+        }
+      ],
+      "method": "curated_source_reading",
+      "note": "命名规则和表4共同定位配方。",
+      "human_confirmation": "待核查",
+      "admitted_to_model": false
+    },
+    {
+      "source_row": 1080,
+      "specimen_id": "G0.7-1.75",
+      "registry_pdf_filename": "2026-Zainab M. Al-Selmi-[Experimental-and-Statistical-Optimization-of-Engineered].pdf",
+      "paper": "AlSelmi2026",
+      "feature": "pva_density_kg_m3",
+      "value": 1280,
+      "unit": "kg/m3",
+      "basis": "fiber_volume",
+      "evidence": [
+        {
+          "page": 5,
+          "quote": "                             Table 3. Polyvinyl alcohol fiber (PVA) properties*.\n                              parameter                  Unit         Standard\n                              Tensile strength           MPa          1788\n                              Modulus of Elasticity      GPa          58\n                              Ultimate elongation        %            <31\n                              Length                     mm           8\n                              Diameter equivalent        µm           40\n                              Alkali resistance          %            ≤ 96\n                              Hot water resistance       C°           ≥ 98\n                              Density                    g/cm3        1.28\n",
+          "location": "Table3 PVA密度1.28g/cm³"
+        }
+      ],
+      "method": "curated_source_reading",
+      "note": "原文PVA密度1.28g/cm³×1000。",
+      "human_confirmation": "待核查",
+      "admitted_to_model": false
+    },
+    {
+      "source_row": 1080,
+      "specimen_id": "G0.7-1.75",
+      "registry_pdf_filename": "2026-Zainab M. Al-Selmi-[Experimental-and-Statistical-Optimization-of-Engineered].pdf",
+      "paper": "AlSelmi2026",
+      "feature": "pva_mass_kg_m3",
+      "value": 22.4,
+      "unit": "kg/m3",
+      "basis": "mixture_volume",
+      "evidence": [
+        {
+          "page": 5,
+          "quote": "                             Table 3. Polyvinyl alcohol fiber (PVA) properties*.\n                              parameter                  Unit         Standard\n                              Tensile strength           MPa          1788\n                              Modulus of Elasticity      GPa          58\n                              Ultimate elongation        %            <31\n                              Length                     mm           8\n                              Diameter equivalent        µm           40\n                              Alkali resistance          %            ≤ 96\n                              Hot water resistance       C°           ≥ 98\n                              Density                    g/cm3        1.28\n",
+          "location": "Table3 PVA密度1.28g/cm³"
+        },
+        {
+          "page": 6,
+          "location": "§2.2–2.3，水下浇筑和命名",
+          "quote": "ﬁbers to obtain uniform dispersion and avoid ﬁber balling.\n  The prepared ECCUWC mixtures were subsequently cast underwater in a laboratory tank\nto simulate submerged casting conditions, and their ﬂowability and washout resistance\nwere evaluated under simulated realistic environments. The mix proportions of the six\nmixtures are presented in Table 4. All mixtures were labeled using a two-part code (e.g.,\nG0.7–1.5), where the ﬁrst number denotes the AWA dosage (% of total cementitious\nmaterial mass) and the second number represents the PVA ﬁber volume fraction (%\nby volume). This nomenclature was applied consistently throughout the experimental\nprogram and data analysis."
+        },
+        {
+          "page": 6,
+          "location": "Table4，6配方及kg/m³表头",
+          "quote": "    Table 4. ECCUWC mix quantity (kg/m3 ).\n    Group no.         OPC           FA          S          SP           AWA          W              PVA\n    G0.7–1.5          1202          301         564        18           10.5         605            19.2\n    G0.9–1.5          1202          301         564        19.5         13.5         605            19.2\n    G1.1–1.5          1202          301         564        21           16.5         605            19.2\n    G0.7–1.75         1202          301         564        19.5         10.5         605            22.4\n    G0.9–1.75         1202          301         564        21           13.5         605            22.4\n    G1.1–1.75         1202          301         564        22.5         16.5         605            22.4\n    Note: The column labeled “Water (kg/m3 )” corresponds to an eﬀective water-to-cementitious\n    materials ratio (w/cm) of approximately 0.40 for all mixtures.\n    The PVA ﬁber dosage is expressed in kg/m3 , equivalent to 1.5–1.75 vol % depending on the mixture.\n    All binder proportions (cement + ﬂy ash = 1502 kg/m3 ) were maintained constant across mixtures.\n\n\n",
+          "image_path": "/workspace/underwater-concrete-ml/outputs/priority-paper-review-v1/AlSelmi2026-p6.png",
+          "image_sha256": "62404b377d4ff679e1fc0a2d911e297a10cb6da11a22483fe8547d2f7b640123",
+          "source_pdf_sha256": "a32b3862ba887a190c669b035b6528494dc6f26a7450c5f35875ed0cd9bd6f8f"
+        }
+      ],
+      "method": "pva_volume_density",
+      "note": "原文表4直接质量值，并以原文体积分数和PVA密度独立核对。",
+      "human_confirmation": "待核查",
+      "admitted_to_model": false,
+      "parameters": {
+        "vol_pct": 1.75,
+        "density_kg_m3": 1280
+      }
+    },
+    {
+      "source_row": 1081,
+      "specimen_id": "G0.9-1.75",
+      "registry_pdf_filename": "2026-Zainab M. Al-Selmi-[Experimental-and-Statistical-Optimization-of-Engineered].pdf",
+      "paper": "AlSelmi2026",
+      "feature": "material_system",
+      "value": "ECCUWC",
+      "unit": "category",
+      "basis": "材料体系",
+      "evidence": [
+        {
+          "page": 6,
+          "location": "§2.2–2.3，水下浇筑和命名",
+          "quote": "ﬁbers to obtain uniform dispersion and avoid ﬁber balling.\n  The prepared ECCUWC mixtures were subsequently cast underwater in a laboratory tank\nto simulate submerged casting conditions, and their ﬂowability and washout resistance\nwere evaluated under simulated realistic environments. The mix proportions of the six\nmixtures are presented in Table 4. All mixtures were labeled using a two-part code (e.g.,\nG0.7–1.5), where the ﬁrst number denotes the AWA dosage (% of total cementitious\nmaterial mass) and the second number represents the PVA ﬁber volume fraction (%\nby volume). This nomenclature was applied consistently throughout the experimental\nprogram and data analysis."
+        }
+      ],
+      "method": "curated_source_reading",
+      "note": "",
+      "human_confirmation": "待核查",
+      "admitted_to_model": false
+    },
+    {
+      "source_row": 1081,
+      "specimen_id": "G0.9-1.75",
+      "registry_pdf_filename": "2026-Zainab M. Al-Selmi-[Experimental-and-Statistical-Optimization-of-Engineered].pdf",
+      "paper": "AlSelmi2026",
+      "feature": "antiwashout_product",
+      "value": "welan-gum powder",
+      "unit": "category",
+      "basis": "产品/聚合物名称，不表示产品等效",
+      "evidence": [
+        {
+          "page": 5,
+          "quote": "pan-type mixer to ensure uniform blending of the constituents. The anti-washout admixture\n(AWA) was ﬁrst dissolved in approximately one-quarter of the total mixing water, which\nhad been preheated to about 95 °C, following the procedure reported in [15], to facilitate\ncomplete dispersion of the welan-gum powder. The prepared AWA solution was then\nallowed to cool to ambient temperature before being used in the mixing process.\n  The mixing procedure was carefully controlled to ensure homogeneity and to prevent",
+          "location": "§2.2 welan-gum powder"
+        }
+      ],
+      "method": "curated_source_reading",
+      "note": "",
+      "human_confirmation": "待核查",
+      "admitted_to_model": false
+    },
+    {
+      "source_row": 1081,
+      "specimen_id": "G0.9-1.75",
+      "registry_pdf_filename": "2026-Zainab M. Al-Selmi-[Experimental-and-Statistical-Optimization-of-Engineered].pdf",
+      "paper": "AlSelmi2026",
+      "feature": "fiber_type",
+      "value": "PVA",
+      "unit": "category",
+      "basis": "本轮已定位的纤维种类，不推断其他纤维不存在",
+      "evidence": [
+        {
+          "page": 5,
+          "quote": "                             Table 3. Polyvinyl alcohol fiber (PVA) properties*.\n                              parameter                  Unit         Standard\n                              Tensile strength           MPa          1788\n                              Modulus of Elasticity      GPa          58\n                              Ultimate elongation        %            <31\n                              Length                     mm           8\n                              Diameter equivalent        µm           40\n                              Alkali resistance          %            ≤ 96\n                              Hot water resistance       C°           ≥ 98\n                              Density                    g/cm3        1.28\n",
+          "location": "Table3 PVA密度1.28g/cm³"
+        }
+      ],
+      "method": "curated_source_reading",
+      "note": "",
+      "human_confirmation": "待核查",
+      "admitted_to_model": false
+    },
+    {
+      "source_row": 1081,
+      "specimen_id": "G0.9-1.75",
+      "registry_pdf_filename": "2026-Zainab M. Al-Selmi-[Experimental-and-Statistical-Optimization-of-Engineered].pdf",
+      "paper": "AlSelmi2026",
+      "feature": "awa_pct_binder",
+      "value": 0.9,
+      "unit": "%",
+      "basis": "binder_mass",
+      "evidence": [
+        {
+          "page": 6,
+          "location": "§2.2–2.3，水下浇筑和命名",
+          "quote": "ﬁbers to obtain uniform dispersion and avoid ﬁber balling.\n  The prepared ECCUWC mixtures were subsequently cast underwater in a laboratory tank\nto simulate submerged casting conditions, and their ﬂowability and washout resistance\nwere evaluated under simulated realistic environments. The mix proportions of the six\nmixtures are presented in Table 4. All mixtures were labeled using a two-part code (e.g.,\nG0.7–1.5), where the ﬁrst number denotes the AWA dosage (% of total cementitious\nmaterial mass) and the second number represents the PVA ﬁber volume fraction (%\nby volume). This nomenclature was applied consistently throughout the experimental\nprogram and data analysis."
+        }
+      ],
+      "method": "curated_source_reading",
+      "note": "胶凝材料质量百分比；不与Zhang水泥基准聚合物列合并。",
+      "human_confirmation": "待核查",
+      "admitted_to_model": false
+    },
+    {
+      "source_row": 1081,
+      "specimen_id": "G0.9-1.75",
+      "registry_pdf_filename": "2026-Zainab M. Al-Selmi-[Experimental-and-Statistical-Optimization-of-Engineered].pdf",
+      "paper": "AlSelmi2026",
+      "feature": "awa_mass_kg_m3",
+      "value": 13.5,
+      "unit": "kg/m3",
+      "basis": "mixture_volume",
+      "evidence": [
+        {
+          "page": 6,
+          "location": "Table4，6配方及kg/m³表头",
+          "quote": "    Table 4. ECCUWC mix quantity (kg/m3 ).\n    Group no.         OPC           FA          S          SP           AWA          W              PVA\n    G0.7–1.5          1202          301         564        18           10.5         605            19.2\n    G0.9–1.5          1202          301         564        19.5         13.5         605            19.2\n    G1.1–1.5          1202          301         564        21           16.5         605            19.2\n    G0.7–1.75         1202          301         564        19.5         10.5         605            22.4\n    G0.9–1.75         1202          301         564        21           13.5         605            22.4\n    G1.1–1.75         1202          301         564        22.5         16.5         605            22.4\n    Note: The column labeled “Water (kg/m3 )” corresponds to an eﬀective water-to-cementitious\n    materials ratio (w/cm) of approximately 0.40 for all mixtures.\n    The PVA ﬁber dosage is expressed in kg/m3 , equivalent to 1.5–1.75 vol % depending on the mixture.\n    All binder proportions (cement + ﬂy ash = 1502 kg/m3 ) were maintained constant across mixtures.\n\n\n",
+          "image_path": "/workspace/underwater-concrete-ml/outputs/priority-paper-review-v1/AlSelmi2026-p6.png",
+          "image_sha256": "62404b377d4ff679e1fc0a2d911e297a10cb6da11a22483fe8547d2f7b640123",
+          "source_pdf_sha256": "a32b3862ba887a190c669b035b6528494dc6f26a7450c5f35875ed0cd9bd6f8f"
+        }
+      ],
+      "method": "curated_source_reading",
+      "note": "原表4直接报告，胶材1502/1503矛盾另存，不从百分比重算。",
+      "human_confirmation": "待核查",
+      "admitted_to_model": false
+    },
+    {
+      "source_row": 1081,
+      "specimen_id": "G0.9-1.75",
+      "registry_pdf_filename": "2026-Zainab M. Al-Selmi-[Experimental-and-Statistical-Optimization-of-Engineered].pdf",
+      "paper": "AlSelmi2026",
+      "feature": "pva_vol_pct",
+      "value": 1.75,
+      "unit": "%",
+      "basis": "mixture_volume",
+      "evidence": [
+        {
+          "page": 6,
+          "location": "§2.2–2.3，水下浇筑和命名",
+          "quote": "ﬁbers to obtain uniform dispersion and avoid ﬁber balling.\n  The prepared ECCUWC mixtures were subsequently cast underwater in a laboratory tank\nto simulate submerged casting conditions, and their ﬂowability and washout resistance\nwere evaluated under simulated realistic environments. The mix proportions of the six\nmixtures are presented in Table 4. All mixtures were labeled using a two-part code (e.g.,\nG0.7–1.5), where the ﬁrst number denotes the AWA dosage (% of total cementitious\nmaterial mass) and the second number represents the PVA ﬁber volume fraction (%\nby volume). This nomenclature was applied consistently throughout the experimental\nprogram and data analysis."
+        },
+        {
+          "page": 6,
+          "location": "Table4，6配方及kg/m³表头",
+          "quote": "    Table 4. ECCUWC mix quantity (kg/m3 ).\n    Group no.         OPC           FA          S          SP           AWA          W              PVA\n    G0.7–1.5          1202          301         564        18           10.5         605            19.2\n    G0.9–1.5          1202          301         564        19.5         13.5         605            19.2\n    G1.1–1.5          1202          301         564        21           16.5         605            19.2\n    G0.7–1.75         1202          301         564        19.5         10.5         605            22.4\n    G0.9–1.75         1202          301         564        21           13.5         605            22.4\n    G1.1–1.75         1202          301         564        22.5         16.5         605            22.4\n    Note: The column labeled “Water (kg/m3 )” corresponds to an eﬀective water-to-cementitious\n    materials ratio (w/cm) of approximately 0.40 for all mixtures.\n    The PVA ﬁber dosage is expressed in kg/m3 , equivalent to 1.5–1.75 vol % depending on the mixture.\n    All binder proportions (cement + ﬂy ash = 1502 kg/m3 ) were maintained constant across mixtures.\n\n\n",
+          "image_path": "/workspace/underwater-concrete-ml/outputs/priority-paper-review-v1/AlSelmi2026-p6.png",
+          "image_sha256": "62404b377d4ff679e1fc0a2d911e297a10cb6da11a22483fe8547d2f7b640123",
+          "source_pdf_sha256": "a32b3862ba887a190c669b035b6528494dc6f26a7450c5f35875ed0cd9bd6f8f"
+        }
+      ],
+      "method": "curated_source_reading",
+      "note": "命名规则和表4共同定位配方。",
+      "human_confirmation": "待核查",
+      "admitted_to_model": false
+    },
+    {
+      "source_row": 1081,
+      "specimen_id": "G0.9-1.75",
+      "registry_pdf_filename": "2026-Zainab M. Al-Selmi-[Experimental-and-Statistical-Optimization-of-Engineered].pdf",
+      "paper": "AlSelmi2026",
+      "feature": "pva_density_kg_m3",
+      "value": 1280,
+      "unit": "kg/m3",
+      "basis": "fiber_volume",
+      "evidence": [
+        {
+          "page": 5,
+          "quote": "                             Table 3. Polyvinyl alcohol fiber (PVA) properties*.\n                              parameter                  Unit         Standard\n                              Tensile strength           MPa          1788\n                              Modulus of Elasticity      GPa          58\n                              Ultimate elongation        %            <31\n                              Length                     mm           8\n                              Diameter equivalent        µm           40\n                              Alkali resistance          %            ≤ 96\n                              Hot water resistance       C°           ≥ 98\n                              Density                    g/cm3        1.28\n",
+          "location": "Table3 PVA密度1.28g/cm³"
+        }
+      ],
+      "method": "curated_source_reading",
+      "note": "原文PVA密度1.28g/cm³×1000。",
+      "human_confirmation": "待核查",
+      "admitted_to_model": false
+    },
+    {
+      "source_row": 1081,
+      "specimen_id": "G0.9-1.75",
+      "registry_pdf_filename": "2026-Zainab M. Al-Selmi-[Experimental-and-Statistical-Optimization-of-Engineered].pdf",
+      "paper": "AlSelmi2026",
+      "feature": "pva_mass_kg_m3",
+      "value": 22.4,
+      "unit": "kg/m3",
+      "basis": "mixture_volume",
+      "evidence": [
+        {
+          "page": 5,
+          "quote": "                             Table 3. Polyvinyl alcohol fiber (PVA) properties*.\n                              parameter                  Unit         Standard\n                              Tensile strength           MPa          1788\n                              Modulus of Elasticity      GPa          58\n                              Ultimate elongation        %            <31\n                              Length                     mm           8\n                              Diameter equivalent        µm           40\n                              Alkali resistance          %            ≤ 96\n                              Hot water resistance       C°           ≥ 98\n                              Density                    g/cm3        1.28\n",
+          "location": "Table3 PVA密度1.28g/cm³"
+        },
+        {
+          "page": 6,
+          "location": "§2.2–2.3，水下浇筑和命名",
+          "quote": "ﬁbers to obtain uniform dispersion and avoid ﬁber balling.\n  The prepared ECCUWC mixtures were subsequently cast underwater in a laboratory tank\nto simulate submerged casting conditions, and their ﬂowability and washout resistance\nwere evaluated under simulated realistic environments. The mix proportions of the six\nmixtures are presented in Table 4. All mixtures were labeled using a two-part code (e.g.,\nG0.7–1.5), where the ﬁrst number denotes the AWA dosage (% of total cementitious\nmaterial mass) and the second number represents the PVA ﬁber volume fraction (%\nby volume). This nomenclature was applied consistently throughout the experimental\nprogram and data analysis."
+        },
+        {
+          "page": 6,
+          "location": "Table4，6配方及kg/m³表头",
+          "quote": "    Table 4. ECCUWC mix quantity (kg/m3 ).\n    Group no.         OPC           FA          S          SP           AWA          W              PVA\n    G0.7–1.5          1202          301         564        18           10.5         605            19.2\n    G0.9–1.5          1202          301         564        19.5         13.5         605            19.2\n    G1.1–1.5          1202          301         564        21           16.5         605            19.2\n    G0.7–1.75         1202          301         564        19.5         10.5         605            22.4\n    G0.9–1.75         1202          301         564        21           13.5         605            22.4\n    G1.1–1.75         1202          301         564        22.5         16.5         605            22.4\n    Note: The column labeled “Water (kg/m3 )” corresponds to an eﬀective water-to-cementitious\n    materials ratio (w/cm) of approximately 0.40 for all mixtures.\n    The PVA ﬁber dosage is expressed in kg/m3 , equivalent to 1.5–1.75 vol % depending on the mixture.\n    All binder proportions (cement + ﬂy ash = 1502 kg/m3 ) were maintained constant across mixtures.\n\n\n",
+          "image_path": "/workspace/underwater-concrete-ml/outputs/priority-paper-review-v1/AlSelmi2026-p6.png",
+          "image_sha256": "62404b377d4ff679e1fc0a2d911e297a10cb6da11a22483fe8547d2f7b640123",
+          "source_pdf_sha256": "a32b3862ba887a190c669b035b6528494dc6f26a7450c5f35875ed0cd9bd6f8f"
+        }
+      ],
+      "method": "pva_volume_density",
+      "note": "原文表4直接质量值，并以原文体积分数和PVA密度独立核对。",
+      "human_confirmation": "待核查",
+      "admitted_to_model": false,
+      "parameters": {
+        "vol_pct": 1.75,
+        "density_kg_m3": 1280
+      }
+    },
+    {
+      "source_row": 1082,
+      "specimen_id": "G1.1-1.75",
+      "registry_pdf_filename": "2026-Zainab M. Al-Selmi-[Experimental-and-Statistical-Optimization-of-Engineered].pdf",
+      "paper": "AlSelmi2026",
+      "feature": "material_system",
+      "value": "ECCUWC",
+      "unit": "category",
+      "basis": "材料体系",
+      "evidence": [
+        {
+          "page": 6,
+          "location": "§2.2–2.3，水下浇筑和命名",
+          "quote": "ﬁbers to obtain uniform dispersion and avoid ﬁber balling.\n  The prepared ECCUWC mixtures were subsequently cast underwater in a laboratory tank\nto simulate submerged casting conditions, and their ﬂowability and washout resistance\nwere evaluated under simulated realistic environments. The mix proportions of the six\nmixtures are presented in Table 4. All mixtures were labeled using a two-part code (e.g.,\nG0.7–1.5), where the ﬁrst number denotes the AWA dosage (% of total cementitious\nmaterial mass) and the second number represents the PVA ﬁber volume fraction (%\nby volume). This nomenclature was applied consistently throughout the experimental\nprogram and data analysis."
+        }
+      ],
+      "method": "curated_source_reading",
+      "note": "",
+      "human_confirmation": "待核查",
+      "admitted_to_model": false
+    },
+    {
+      "source_row": 1082,
+      "specimen_id": "G1.1-1.75",
+      "registry_pdf_filename": "2026-Zainab M. Al-Selmi-[Experimental-and-Statistical-Optimization-of-Engineered].pdf",
+      "paper": "AlSelmi2026",
+      "feature": "antiwashout_product",
+      "value": "welan-gum powder",
+      "unit": "category",
+      "basis": "产品/聚合物名称，不表示产品等效",
+      "evidence": [
+        {
+          "page": 5,
+          "quote": "pan-type mixer to ensure uniform blending of the constituents. The anti-washout admixture\n(AWA) was ﬁrst dissolved in approximately one-quarter of the total mixing water, which\nhad been preheated to about 95 °C, following the procedure reported in [15], to facilitate\ncomplete dispersion of the welan-gum powder. The prepared AWA solution was then\nallowed to cool to ambient temperature before being used in the mixing process.\n  The mixing procedure was carefully controlled to ensure homogeneity and to prevent",
+          "location": "§2.2 welan-gum powder"
+        }
+      ],
+      "method": "curated_source_reading",
+      "note": "",
+      "human_confirmation": "待核查",
+      "admitted_to_model": false
+    },
+    {
+      "source_row": 1082,
+      "specimen_id": "G1.1-1.75",
+      "registry_pdf_filename": "2026-Zainab M. Al-Selmi-[Experimental-and-Statistical-Optimization-of-Engineered].pdf",
+      "paper": "AlSelmi2026",
+      "feature": "fiber_type",
+      "value": "PVA",
+      "unit": "category",
+      "basis": "本轮已定位的纤维种类，不推断其他纤维不存在",
+      "evidence": [
+        {
+          "page": 5,
+          "quote": "                             Table 3. Polyvinyl alcohol fiber (PVA) properties*.\n                              parameter                  Unit         Standard\n                              Tensile strength           MPa          1788\n                              Modulus of Elasticity      GPa          58\n                              Ultimate elongation        %            <31\n                              Length                     mm           8\n                              Diameter equivalent        µm           40\n                              Alkali resistance          %            ≤ 96\n                              Hot water resistance       C°           ≥ 98\n                              Density                    g/cm3        1.28\n",
+          "location": "Table3 PVA密度1.28g/cm³"
+        }
+      ],
+      "method": "curated_source_reading",
+      "note": "",
+      "human_confirmation": "待核查",
+      "admitted_to_model": false
+    },
+    {
+      "source_row": 1082,
+      "specimen_id": "G1.1-1.75",
+      "registry_pdf_filename": "2026-Zainab M. Al-Selmi-[Experimental-and-Statistical-Optimization-of-Engineered].pdf",
+      "paper": "AlSelmi2026",
+      "feature": "awa_pct_binder",
+      "value": 1.1,
+      "unit": "%",
+      "basis": "binder_mass",
+      "evidence": [
+        {
+          "page": 6,
+          "location": "§2.2–2.3，水下浇筑和命名",
+          "quote": "ﬁbers to obtain uniform dispersion and avoid ﬁber balling.\n  The prepared ECCUWC mixtures were subsequently cast underwater in a laboratory tank\nto simulate submerged casting conditions, and their ﬂowability and washout resistance\nwere evaluated under simulated realistic environments. The mix proportions of the six\nmixtures are presented in Table 4. All mixtures were labeled using a two-part code (e.g.,\nG0.7–1.5), where the ﬁrst number denotes the AWA dosage (% of total cementitious\nmaterial mass) and the second number represents the PVA ﬁber volume fraction (%\nby volume). This nomenclature was applied consistently throughout the experimental\nprogram and data analysis."
+        }
+      ],
+      "method": "curated_source_reading",
+      "note": "胶凝材料质量百分比；不与Zhang水泥基准聚合物列合并。",
+      "human_confirmation": "待核查",
+      "admitted_to_model": false
+    },
+    {
+      "source_row": 1082,
+      "specimen_id": "G1.1-1.75",
+      "registry_pdf_filename": "2026-Zainab M. Al-Selmi-[Experimental-and-Statistical-Optimization-of-Engineered].pdf",
+      "paper": "AlSelmi2026",
+      "feature": "awa_mass_kg_m3",
+      "value": 16.5,
+      "unit": "kg/m3",
+      "basis": "mixture_volume",
+      "evidence": [
+        {
+          "page": 6,
+          "location": "Table4，6配方及kg/m³表头",
+          "quote": "    Table 4. ECCUWC mix quantity (kg/m3 ).\n    Group no.         OPC           FA          S          SP           AWA          W              PVA\n    G0.7–1.5          1202          301         564        18           10.5         605            19.2\n    G0.9–1.5          1202          301         564        19.5         13.5         605            19.2\n    G1.1–1.5          1202          301         564        21           16.5         605            19.2\n    G0.7–1.75         1202          301         564        19.5         10.5         605            22.4\n    G0.9–1.75         1202          301         564        21           13.5         605            22.4\n    G1.1–1.75         1202          301         564        22.5         16.5         605            22.4\n    Note: The column labeled “Water (kg/m3 )” corresponds to an eﬀective water-to-cementitious\n    materials ratio (w/cm) of approximately 0.40 for all mixtures.\n    The PVA ﬁber dosage is expressed in kg/m3 , equivalent to 1.5–1.75 vol % depending on the mixture.\n    All binder proportions (cement + ﬂy ash = 1502 kg/m3 ) were maintained constant across mixtures.\n\n\n",
+          "image_path": "/workspace/underwater-concrete-ml/outputs/priority-paper-review-v1/AlSelmi2026-p6.png",
+          "image_sha256": "62404b377d4ff679e1fc0a2d911e297a10cb6da11a22483fe8547d2f7b640123",
+          "source_pdf_sha256": "a32b3862ba887a190c669b035b6528494dc6f26a7450c5f35875ed0cd9bd6f8f"
+        }
+      ],
+      "method": "curated_source_reading",
+      "note": "原表4直接报告，胶材1502/1503矛盾另存，不从百分比重算。",
+      "human_confirmation": "待核查",
+      "admitted_to_model": false
+    },
+    {
+      "source_row": 1082,
+      "specimen_id": "G1.1-1.75",
+      "registry_pdf_filename": "2026-Zainab M. Al-Selmi-[Experimental-and-Statistical-Optimization-of-Engineered].pdf",
+      "paper": "AlSelmi2026",
+      "feature": "pva_vol_pct",
+      "value": 1.75,
+      "unit": "%",
+      "basis": "mixture_volume",
+      "evidence": [
+        {
+          "page": 6,
+          "location": "§2.2–2.3，水下浇筑和命名",
+          "quote": "ﬁbers to obtain uniform dispersion and avoid ﬁber balling.\n  The prepared ECCUWC mixtures were subsequently cast underwater in a laboratory tank\nto simulate submerged casting conditions, and their ﬂowability and washout resistance\nwere evaluated under simulated realistic environments. The mix proportions of the six\nmixtures are presented in Table 4. All mixtures were labeled using a two-part code (e.g.,\nG0.7–1.5), where the ﬁrst number denotes the AWA dosage (% of total cementitious\nmaterial mass) and the second number represents the PVA ﬁber volume fraction (%\nby volume). This nomenclature was applied consistently throughout the experimental\nprogram and data analysis."
+        },
+        {
+          "page": 6,
+          "location": "Table4，6配方及kg/m³表头",
+          "quote": "    Table 4. ECCUWC mix quantity (kg/m3 ).\n    Group no.         OPC           FA          S          SP           AWA          W              PVA\n    G0.7–1.5          1202          301         564        18           10.5         605            19.2\n    G0.9–1.5          1202          301         564        19.5         13.5         605            19.2\n    G1.1–1.5          1202          301         564        21           16.5         605            19.2\n    G0.7–1.75         1202          301         564        19.5         10.5         605            22.4\n    G0.9–1.75         1202          301         564        21           13.5         605            22.4\n    G1.1–1.75         1202          301         564        22.5         16.5         605            22.4\n    Note: The column labeled “Water (kg/m3 )” corresponds to an eﬀective water-to-cementitious\n    materials ratio (w/cm) of approximately 0.40 for all mixtures.\n    The PVA ﬁber dosage is expressed in kg/m3 , equivalent to 1.5–1.75 vol % depending on the mixture.\n    All binder proportions (cement + ﬂy ash = 1502 kg/m3 ) were maintained constant across mixtures.\n\n\n",
+          "image_path": "/workspace/underwater-concrete-ml/outputs/priority-paper-review-v1/AlSelmi2026-p6.png",
+          "image_sha256": "62404b377d4ff679e1fc0a2d911e297a10cb6da11a22483fe8547d2f7b640123",
+          "source_pdf_sha256": "a32b3862ba887a190c669b035b6528494dc6f26a7450c5f35875ed0cd9bd6f8f"
+        }
+      ],
+      "method": "curated_source_reading",
+      "note": "命名规则和表4共同定位配方。",
+      "human_confirmation": "待核查",
+      "admitted_to_model": false
+    },
+    {
+      "source_row": 1082,
+      "specimen_id": "G1.1-1.75",
+      "registry_pdf_filename": "2026-Zainab M. Al-Selmi-[Experimental-and-Statistical-Optimization-of-Engineered].pdf",
+      "paper": "AlSelmi2026",
+      "feature": "pva_density_kg_m3",
+      "value": 1280,
+      "unit": "kg/m3",
+      "basis": "fiber_volume",
+      "evidence": [
+        {
+          "page": 5,
+          "quote": "                             Table 3. Polyvinyl alcohol fiber (PVA) properties*.\n                              parameter                  Unit         Standard\n                              Tensile strength           MPa          1788\n                              Modulus of Elasticity      GPa          58\n                              Ultimate elongation        %            <31\n                              Length                     mm           8\n                              Diameter equivalent        µm           40\n                              Alkali resistance          %            ≤ 96\n                              Hot water resistance       C°           ≥ 98\n                              Density                    g/cm3        1.28\n",
+          "location": "Table3 PVA密度1.28g/cm³"
+        }
+      ],
+      "method": "curated_source_reading",
+      "note": "原文PVA密度1.28g/cm³×1000。",
+      "human_confirmation": "待核查",
+      "admitted_to_model": false
+    },
+    {
+      "source_row": 1082,
+      "specimen_id": "G1.1-1.75",
+      "registry_pdf_filename": "2026-Zainab M. Al-Selmi-[Experimental-and-Statistical-Optimization-of-Engineered].pdf",
+      "paper": "AlSelmi2026",
+      "feature": "pva_mass_kg_m3",
+      "value": 22.4,
+      "unit": "kg/m3",
+      "basis": "mixture_volume",
+      "evidence": [
+        {
+          "page": 5,
+          "quote": "                             Table 3. Polyvinyl alcohol fiber (PVA) properties*.\n                              parameter                  Unit         Standard\n                              Tensile strength           MPa          1788\n                              Modulus of Elasticity      GPa          58\n                              Ultimate elongation        %            <31\n                              Length                     mm           8\n                              Diameter equivalent        µm           40\n                              Alkali resistance          %            ≤ 96\n                              Hot water resistance       C°           ≥ 98\n                              Density                    g/cm3        1.28\n",
+          "location": "Table3 PVA密度1.28g/cm³"
+        },
+        {
+          "page": 6,
+          "location": "§2.2–2.3，水下浇筑和命名",
+          "quote": "ﬁbers to obtain uniform dispersion and avoid ﬁber balling.\n  The prepared ECCUWC mixtures were subsequently cast underwater in a laboratory tank\nto simulate submerged casting conditions, and their ﬂowability and washout resistance\nwere evaluated under simulated realistic environments. The mix proportions of the six\nmixtures are presented in Table 4. All mixtures were labeled using a two-part code (e.g.,\nG0.7–1.5), where the ﬁrst number denotes the AWA dosage (% of total cementitious\nmaterial mass) and the second number represents the PVA ﬁber volume fraction (%\nby volume). This nomenclature was applied consistently throughout the experimental\nprogram and data analysis."
+        },
+        {
+          "page": 6,
+          "location": "Table4，6配方及kg/m³表头",
+          "quote": "    Table 4. ECCUWC mix quantity (kg/m3 ).\n    Group no.         OPC           FA          S          SP           AWA          W              PVA\n    G0.7–1.5          1202          301         564        18           10.5         605            19.2\n    G0.9–1.5          1202          301         564        19.5         13.5         605            19.2\n    G1.1–1.5          1202          301         564        21           16.5         605            19.2\n    G0.7–1.75         1202          301         564        19.5         10.5         605            22.4\n    G0.9–1.75         1202          301         564        21           13.5         605            22.4\n    G1.1–1.75         1202          301         564        22.5         16.5         605            22.4\n    Note: The column labeled “Water (kg/m3 )” corresponds to an eﬀective water-to-cementitious\n    materials ratio (w/cm) of approximately 0.40 for all mixtures.\n    The PVA ﬁber dosage is expressed in kg/m3 , equivalent to 1.5–1.75 vol % depending on the mixture.\n    All binder proportions (cement + ﬂy ash = 1502 kg/m3 ) were maintained constant across mixtures.\n\n\n",
+          "image_path": "/workspace/underwater-concrete-ml/outputs/priority-paper-review-v1/AlSelmi2026-p6.png",
+          "image_sha256": "62404b377d4ff679e1fc0a2d911e297a10cb6da11a22483fe8547d2f7b640123",
+          "source_pdf_sha256": "a32b3862ba887a190c669b035b6528494dc6f26a7450c5f35875ed0cd9bd6f8f"
+        }
+      ],
+      "method": "pva_volume_density",
+      "note": "原文表4直接质量值，并以原文体积分数和PVA密度独立核对。",
+      "human_confirmation": "待核查",
+      "admitted_to_model": false,
+      "parameters": {
+        "vol_pct": 1.75,
+        "density_kg_m3": 1280
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "cloud_full_tests_passed": 130,
+  "isolated_clone_prediction_passed": true,
+  "prediction_rows": 3,
+  "same_predictions_as_cloud": true,
+  "local_excel_records": 1082,
+  "local_primary_records": 212,
+  "local_exploratory_records": 467,
+  "historical_manifests_rewritten": false,
+  "raw_files_pushed_to_git": false,
+  "runtime_tested": "Python3.12/Linux",
+  "native_windows_training_tested": false,
+  "legacy_full_desktop_suite_passed": false,
+  "setup_stdout": "{\"prediction_ready\": true, \"baseline_ready\": true, \"materials_found\": 1, \"materials_total\": 16}",
+  "scope_test_stdout": "local_excel_scope_match_passed"
+}

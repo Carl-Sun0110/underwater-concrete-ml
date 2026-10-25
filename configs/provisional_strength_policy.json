@@ -1,0 +1,22 @@
+{
+  "policy_id": "user-provisional-strength-20261021",
+  "authorization": "用户：你就先当0.95和0.8和0.76处理就行",
+  "purpose": "探索性数据流程与后续模型试验的暂定标签；非文献已核实标签",
+  "accepted_existing_row_factors": [
+    0.95,
+    0.8,
+    0.76
+  ],
+  "factor_assignment": "使用每条记录原有Conversion Factor；不将三个系数任意互换，不自行补缺失系数或按试件类型推断",
+  "input_strength": "CS_28d",
+  "formula": "Provisional_Converted_CS_28d = CS_28d * Conversion Factor",
+  "output_strength": "Provisional_Converted_CS_28d",
+  "rounding": "保留未取整数值；不为匹配旧表而猜测取整规则",
+  "missing_or_other_factor": "保留原记录，暂不按本规则换算；其他系数不擅自替换",
+  "requires_positive_original_strength": true,
+  "strength_basis_status": "暂定系数：用户允许探索性使用；文献依据尚未核实",
+  "preserve_original_files": true,
+  "promote_reliability_status": false,
+  "fill_missing_strength": false,
+  "training_authorized_by_this_instruction": false
+}

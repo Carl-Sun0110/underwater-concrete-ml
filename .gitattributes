@@ -1,0 +1,6 @@
+*.joblib binary
+*.docx binary
+*.png binary
+*.zip binary
+*.json -text
+*.py text eol=lf

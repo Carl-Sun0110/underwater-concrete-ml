@@ -1,0 +1,59 @@
+{
+  "experiment_id": "parallel-svr-mlp-v1",
+  "baseline_run": "outputs/parallel-exploration-v1",
+  "seed": 42,
+  "inner_folds": 3,
+  "feature_sets": [
+    "materials",
+    "materials_plus_ratios"
+  ],
+  "ratio_numerators": [
+    "Water",
+    "SF",
+    "FA",
+    "GGBS",
+    "RS",
+    "SS",
+    "CA",
+    "SCA"
+  ],
+  "ratio_denominator": "Cem",
+  "models": [
+    "svr",
+    "mlp"
+  ],
+  "grids": {
+    "svr": {
+      "model__regressor__C": [
+        1.0,
+        10.0
+      ],
+      "model__regressor__gamma": [
+        0.01,
+        0.1
+      ]
+    },
+    "mlp": {
+      "model__regressor__hidden_sizes": [
+        [
+          16
+        ],
+        [
+          32,
+          16
+        ]
+      ],
+      "model__regressor__weight_decay": [
+        0.001,
+        0.01
+      ]
+    }
+  },
+  "selection_scoring": "neg_mean_absolute_error",
+  "n_jobs": 1,
+  "scope": "固定上轮AB开发队列与外层折；输入中位数插补及缺失标记限训练折；不使用历史测试；派生配比比值为原表单位可比假定下的探索特征，未核实为严格无量纲",
+  "mlp_epochs": 150,
+  "mlp_dropout": 0.15,
+  "comparison_run": "outputs/parallel-nested-v2",
+  "evidence_config": "configs/composition_review_evidence.json"
+}

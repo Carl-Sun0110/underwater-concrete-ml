@@ -1,0 +1,29 @@
+{
+  "policy_id": "exploratory-feature-review-v1",
+  "core_features": ["Water", "Cem"],
+  "expanded_features": ["Water", "Cem", "SF", "FA", "GGBS", "MK", "NP", "AH", "RS", "SS", "CA", "SCA"],
+  "optional_ratio_features": ["w/c", "w/b"],
+  "deferred_features": {
+    "SP": "部分来源存在体积/质量单位或占位问题，初版默认不使用",
+    "AWA": "零值与计量基准不明的来源较多，初版默认不使用",
+    "Retarder": "质量用量及零值语义待核查",
+    "Emulsion": "存在体积转质量依据不足",
+    "Density": "来源/假设未知，初版默认不使用",
+    "StF": "纤维类型与用量来源作为下一版独立核查内容",
+    "SyF": "纤维类型与用量来源作为下一版独立核查内容"
+  },
+  "diagnostic_positive_sets": {
+    "core_positive": ["Water", "Cem"],
+    "core_and_ratios_positive": ["Water", "Cem", "w/c", "w/b"],
+    "core_SP_positive": ["Water", "Cem", "SP"],
+    "core_AWA_positive": ["Water", "Cem", "AWA"],
+    "core_SP_AWA_positive": ["Water", "Cem", "SP", "AWA"]
+  },
+  "zero_policy": "没有逐字段真零证据时，仅在独立诊断视图中标为未知；原始0不改变",
+  "missing_fraction_thresholds": [0, 0.25, 0.5, 0.75, 1.0],
+  "selected_missing_threshold": null,
+  "imputation": null,
+  "scaling": null,
+  "feature_selection_fitted": false,
+  "model_training": false
+}

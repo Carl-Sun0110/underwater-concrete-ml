@@ -1,0 +1,11 @@
+{
+  "source": "outputs/baseline_v1_1/exploratory_underwater__selected.joblib",
+  "source_sha256": "e72ccb76cf1fcbf1cf2fc253980c949a3c305da3c72175b66f6dffd8bb55e128",
+  "published_copy_sha256": "e72ccb76cf1fcbf1cf2fc253980c949a3c305da3c72175b66f6dffd8bb55e128",
+  "same_bytes": true,
+  "source_experiment": "exploratory_underwater__core__median__xgb",
+  "training_n": 320,
+  "heldout_n": 147,
+  "training_cv_R2": 0.08376292541610719,
+  "exploratory_only": true
+}

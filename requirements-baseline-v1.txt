@@ -1,0 +1,3 @@
+-r requirements-modeling.txt
+xgboost-cpu==3.4.1
+catboost==1.2.8

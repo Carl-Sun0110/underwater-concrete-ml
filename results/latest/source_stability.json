@@ -1,0 +1,351 @@
+[
+  {
+    "cohort": "primary_direct",
+    "experiment": "primary_direct__materials__scaled_knn__catboost",
+    "n": 117,
+    "source_groups": 4,
+    "resamples": 2000,
+    "seed": 42,
+    "sources_improved": 4,
+    "sources_worsened": 0,
+    "model_sample_MAE_MPa": 19.82624639658448,
+    "reference_sample_MAE_MPa": 39.80078310853579,
+    "model_macro_MAE_MPa": 21.17799482426152,
+    "reference_macro_MAE_MPa": 36.02709481559548,
+    "source_resampling_percentiles": {
+      "model_sample_MAE_MPa": {
+        "p2_5": 7.783805365886526,
+        "median": 19.82624639658448,
+        "p97_5": 37.21680550844859
+      },
+      "model_macro_MAE_MPa": {
+        "p2_5": 6.965841705847651,
+        "median": 21.177994824261518,
+        "p97_5": 40.69143961125913
+      },
+      "paired_sample_MAE_delta_MPa": {
+        "p2_5": -24.397185091867595,
+        "median": -19.97453671195131,
+        "p97_5": -5.960474680235695
+      },
+      "paired_macro_MAE_delta_MPa": {
+        "p2_5": -24.38308330273948,
+        "median": -14.849099991333965,
+        "p97_5": -5.315116679928451
+      }
+    },
+    "sources": [
+      {
+        "group": "G002",
+        "n": 3,
+        "papers": [
+          "2021-Piotr Brzozowski-[Influence-of-surface-preparation-on-adhesion-of].pdf"
+        ],
+        "model_MAE_MPa": 4.511950725731029,
+        "mean_reference_MAE_MPa": 5.3095614035087735,
+        "delta_MAE_MPa": -0.7976106777777447
+      },
+      {
+        "group": "G003",
+        "n": 104,
+        "papers": [
+          "2022-Ahmed A. Nasr-[Influence-of-water-currents-velocity-on-the].pdf",
+          "2022-Ahmed A. Nasr-[Strength evaluation-of-a-new-underwater-concrete-type].pdf"
+        ],
+        "model_MAE_MPa": 19.664953965660025,
+        "mean_reference_MAE_MPa": 40.10067307692308,
+        "delta_MAE_MPa": -20.435719111263055
+      },
+      {
+        "group": "G004",
+        "n": 4,
+        "papers": [
+          "2025-Yu Zhang-[Mechanism of Highly Adsorbent Macromolecular].pdf"
+        ],
+        "model_MAE_MPa": 51.11534191969075,
+        "mean_reference_MAE_MPa": 60.947964601769904,
+        "delta_MAE_MPa": -9.832622682079155
+      },
+      {
+        "group": "G005",
+        "n": 6,
+        "papers": [
+          "2026-Zainab M. Al-Selmi-[Experimental-and-Statistical-Optimization-of-Engineered].pdf"
+        ],
+        "model_MAE_MPa": 9.419732685964274,
+        "mean_reference_MAE_MPa": 37.75018018018017,
+        "delta_MAE_MPa": -28.3304474942159
+      }
+    ],
+    "interpretation": "固定训练折外预测的来源构成稳定性描述；不重训练，非独立测试置信区间，不能当p值或泛化保证。"
+  },
+  {
+    "cohort": "exploratory_underwater",
+    "experiment": "exploratory_underwater__core__median__xgb",
+    "n": 320,
+    "source_groups": 23,
+    "resamples": 2000,
+    "seed": 42,
+    "sources_improved": 12,
+    "sources_worsened": 11,
+    "model_sample_MAE_MPa": 9.117971576690673,
+    "reference_sample_MAE_MPa": 9.67430645490463,
+    "model_macro_MAE_MPa": 10.667558364512185,
+    "reference_macro_MAE_MPa": 12.222402854264482,
+    "source_resampling_percentiles": {
+      "model_sample_MAE_MPa": {
+        "p2_5": 7.430334423009885,
+        "median": 9.051895220055282,
+        "p97_5": 11.435489154044257
+      },
+      "model_macro_MAE_MPa": {
+        "p2_5": 7.157994985772376,
+        "median": 10.425035144411275,
+        "p97_5": 15.927321051222973
+      },
+      "paired_sample_MAE_delta_MPa": {
+        "p2_5": -2.7665053043857255,
+        "median": -0.49735817090065115,
+        "p97_5": 0.8809681459988871
+      },
+      "paired_macro_MAE_delta_MPa": {
+        "p2_5": -4.9070662838394625,
+        "median": -1.4160231747284167,
+        "p97_5": 1.0810693106622404
+      }
+    },
+    "sources": [
+      {
+        "group": "G000",
+        "n": 84,
+        "papers": [
+          "2001-M. Sonebi-[Effect-of-Mixture-Composition-on-Relative-Strength].pdf"
+        ],
+        "model_MAE_MPa": 8.762385599953786,
+        "mean_reference_MAE_MPa": 8.18497982243745,
+        "delta_MAE_MPa": 0.5774057775163364
+      },
+      {
+        "group": "G001",
+        "n": 9,
+        "papers": [
+          "2007-Han-Young Moon-[Frost-attack-resistance-and-steel-bar-corrosion].pdf"
+        ],
+        "model_MAE_MPa": 7.216781531439888,
+        "mean_reference_MAE_MPa": 11.25786683630195,
+        "delta_MAE_MPa": -4.0410853048620625
+      },
+      {
+        "group": "G002",
+        "n": 11,
+        "papers": [
+          "2008-K. M. Yousri-[Self-flowing-underwater-concrete-mixtures].pdf"
+        ],
+        "model_MAE_MPa": 17.635448282415215,
+        "mean_reference_MAE_MPa": 13.896128466128461,
+        "delta_MAE_MPa": 3.739319816286754
+      },
+      {
+        "group": "G003",
+        "n": 10,
+        "papers": [
+          "2012-Joseph J. Assaad-[Bond-strength-of-epoxy-coated-bars-in-underwater].pdf"
+        ],
+        "model_MAE_MPa": 5.383338088989259,
+        "mean_reference_MAE_MPa": 12.018,
+        "delta_MAE_MPa": -6.634661911010742
+      },
+      {
+        "group": "G004",
+        "n": 12,
+        "papers": [
+          "2014-Elżbieta Horszczaruk-[Bond-strength-of-underwater-repair-concretes].pdf"
+        ],
+        "model_MAE_MPa": 2.110045878092448,
+        "mean_reference_MAE_MPa": 11.775083655083662,
+        "delta_MAE_MPa": -9.665037776991214
+      },
+      {
+        "group": "G005",
+        "n": 20,
+        "papers": [
+          "2015-Ashraf Mohamed Heniegal-[Simulation of the behavior of pressurized].pdf"
+        ],
+        "model_MAE_MPa": 7.769722698211669,
+        "mean_reference_MAE_MPa": 7.369007633587785,
+        "delta_MAE_MPa": 0.40071506462388395
+      },
+      {
+        "group": "G006",
+        "n": 5,
+        "papers": [
+          "2015-Camille A. Issa-[Bond-of-tension-bars-in-underwater-concrete].pdf"
+        ],
+        "model_MAE_MPa": 10.187289123535157,
+        "mean_reference_MAE_MPa": 12.289007633587785,
+        "delta_MAE_MPa": -2.1017185100526277
+      },
+      {
+        "group": "G007",
+        "n": 22,
+        "papers": [
+          "2015-王进京-[水下不分散混凝土性能研究].pdf"
+        ],
+        "model_MAE_MPa": 8.430500654740767,
+        "mean_reference_MAE_MPa": 8.634507140369207,
+        "delta_MAE_MPa": -0.20400648562844026
+      },
+      {
+        "group": "G010",
+        "n": 22,
+        "papers": [
+          "2017-朱振普-[海水环境下水下不分散混凝土的耐久性研究].pdf"
+        ],
+        "model_MAE_MPa": 9.976319469105112,
+        "mean_reference_MAE_MPa": 9.718855738855734,
+        "delta_MAE_MPa": 0.25746373024937874
+      },
+      {
+        "group": "G011",
+        "n": 6,
+        "papers": [
+          "2018-刘明乐-[高强度水下不分散混凝土].pdf"
+        ],
+        "model_MAE_MPa": 16.680286966959635,
+        "mean_reference_MAE_MPa": 5.239910941475828,
+        "delta_MAE_MPa": 11.440376025483808
+      },
+      {
+        "group": "G013",
+        "n": 20,
+        "papers": [
+          "2019-Shaofeng Wu-[The-Mix-Ratio-Study-of-Self-Stressed-Anti-Washout].pdf"
+        ],
+        "model_MAE_MPa": 7.906861129760742,
+        "mean_reference_MAE_MPa": 5.975255725190839,
+        "delta_MAE_MPa": 1.9316054045699032
+      },
+      {
+        "group": "G014",
+        "n": 3,
+        "papers": [
+          "2021-Piotr Brzozowski-[Influence-of-surface-preparation-on-adhesion-of].pdf"
+        ],
+        "model_MAE_MPa": 7.300030008951822,
+        "mean_reference_MAE_MPa": 5.086138996138999,
+        "delta_MAE_MPa": 2.213891012812823
+      },
+      {
+        "group": "G015",
+        "n": 19,
+        "papers": [
+          "2021-Yaoyu Wang-[Beneficial Influence of Nanoparticles on the Strengths].pdf"
+        ],
+        "model_MAE_MPa": 8.915003007587634,
+        "mean_reference_MAE_MPa": 11.790439935717155,
+        "delta_MAE_MPa": -2.8754369281295205
+      },
+      {
+        "group": "G017",
+        "n": 9,
+        "papers": [
+          "2022-In Kyu Jeon-[Effects-of-nano-silica-and-reactive-magnesia-on].pdf"
+        ],
+        "model_MAE_MPa": 2.599159579806857,
+        "mean_reference_MAE_MPa": 4.20294593444019,
+        "delta_MAE_MPa": -1.6037863546333329
+      },
+      {
+        "group": "G018",
+        "n": 12,
+        "papers": [
+          "2023-Elżbieta Horszczaruk-[Abrasion-resistance-and-mechanical-strength-of-underwater].pdf"
+        ],
+        "model_MAE_MPa": 15.255791918436685,
+        "mean_reference_MAE_MPa": 13.487969348659007,
+        "delta_MAE_MPa": 1.7678225697776782
+      },
+      {
+        "group": "G019",
+        "n": 8,
+        "papers": [
+          "2023-Zhongzhe Zhang-[Effect-of-antiwashout-admixture-on-compressive-strength-of].pdf"
+        ],
+        "model_MAE_MPa": 9.5287841796875,
+        "mean_reference_MAE_MPa": 10.175,
+        "delta_MAE_MPa": -0.6462158203125004
+      },
+      {
+        "group": "G020",
+        "n": 1,
+        "papers": [
+          "2024-Baizhi Wang-[Filling-performance-of-self-protecting-underwater].pdf"
+        ],
+        "model_MAE_MPa": 11.591306304931642,
+        "mean_reference_MAE_MPa": 15.62869731800766,
+        "delta_MAE_MPa": -4.037391013076018
+      },
+      {
+        "group": "G021",
+        "n": 5,
+        "papers": [
+          "2024-Shunmin Xiao-[Enhancing-marine-anti-washout-concrete-Optimal-silica-fume].pdf"
+        ],
+        "model_MAE_MPa": 10.934296417236329,
+        "mean_reference_MAE_MPa": 6.975050193050197,
+        "delta_MAE_MPa": 3.959246224186132
+      },
+      {
+        "group": "G023",
+        "n": 4,
+        "papers": [
+          "2025-Yu Zhang-[Mechanism of Highly Adsorbent Macromolecular].pdf"
+        ],
+        "model_MAE_MPa": 59.354921340942376,
+        "mean_reference_MAE_MPa": 58.40324427480916,
+        "delta_MAE_MPa": 0.9516770661332146
+      },
+      {
+        "group": "G024",
+        "n": 10,
+        "papers": [
+          "2025-王志洋-[偏高岭土基地聚合物水下不分散混凝土的制备与性能研究].pdf"
+        ],
+        "model_MAE_MPa": 1.7132679748535158,
+        "mean_reference_MAE_MPa": 2.1229770992366443,
+        "delta_MAE_MPa": -0.40970912438312856
+      },
+      {
+        "group": "G025",
+        "n": 5,
+        "papers": [
+          "2026-Hoon Moon-[Development-of-Heavyweight-Anti-Washout-Self-Compacting-Concrete-Using].pdf"
+        ],
+        "model_MAE_MPa": 2.3311412048339846,
+        "mean_reference_MAE_MPa": 7.541302681992342,
+        "delta_MAE_MPa": -5.210161477158357
+      },
+      {
+        "group": "G026",
+        "n": 17,
+        "papers": [
+          "2026-Mohammed H. Belal-[Enhancing washout resistance and durability of slag-based underwater].pdf"
+        ],
+        "model_MAE_MPa": 7.73095869176528,
+        "mean_reference_MAE_MPa": 2.6879344409519543,
+        "delta_MAE_MPa": 5.043024250813326
+      },
+      {
+        "group": "G028",
+        "n": 6,
+        "papers": [
+          "2026-Zainab M. Al-Selmi-[Experimental-and-Statistical-Optimization-of-Engineered].pdf"
+        ],
+        "model_MAE_MPa": 6.040202331542968,
+        "mean_reference_MAE_MPa": 36.654961832061076,
+        "delta_MAE_MPa": -30.614759500518108
+      }
+    ],
+    "interpretation": "固定训练折外预测的来源构成稳定性描述；不重训练，非独立测试置信区间，不能当p值或泛化保证。"
+  }
+]

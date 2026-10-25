@@ -1,0 +1,9 @@
+{
+  "feature_set": "core_plus_computed_ratio",
+  "models": ["mean", "svr", "rf", "xgb", "mlp"],
+  "absolute_error_flag_mpa": 20.0,
+  "top_cases_per_model": 15,
+  "domain_features": ["Water", "Cem", "Computed_Water_Cem"],
+  "inspect_material_fields": ["SF", "FA", "GGBS", "MK", "AH", "SS", "RS", "CA", "StF", "SyF"],
+  "scope": "仅训练部分折外误差诊断；不删除样本、不重训、不评估测试"
+}
