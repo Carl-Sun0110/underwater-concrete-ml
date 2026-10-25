@@ -4,11 +4,11 @@
 
 继续水下浇筑混凝土28天抗压强度预测研究。实际Baseline、诊断和CSV预测已经跑通，不要从总体方案重新开始，也不要优先搭复杂Agent。文献核查与探索建模并行。
 
-仓库Carl-Sun0110/underwater-concrete-ml。用户已授权整理迁移GitHub。代码、配置、最新汇总和预测模型入Git；原始材料及完整历史输出另有离线ZIP归档。
+仓库Carl-Sun0110/underwater-concrete-ml。用户已授权整理迁移GitHub。代码、配置、最新汇总和预测模型在main；原始材料及完整历史输出的4个ZIP在独立`desktop-transfer-20261025`分支，方便绕过聊天下载故障。
 
 1. 先读README、本文件与`results/latest/阶段性探索建模报告.md`。
 2. 安装`requirements-desktop.txt`，先用`examples/recipes_demo.csv`跑预测。
-3. 在首次克隆的仓库根目录解压迁移归档，运行`python scripts/prepare_desktop.py`。按SHA256定位材料，不能按同名猜版本。
+3. 在main仓库运行`python scripts/download_migration.py --extract`，按SHA256取包且仅恢复历史输出和材料；之后运行`python scripts/prepare_desktop.py`。本地配置目录已存在时用`--output-dir configs/local_restored`创建新的配置，不能覆盖已编辑配置。不能按同名猜版本。
 4. 要重跑时使用`configs/local/`配置，输出`outputs/desktop_baseline_v1`，然后V1.1。保留原始历史配置和manifest。
 
 ## 数据事实

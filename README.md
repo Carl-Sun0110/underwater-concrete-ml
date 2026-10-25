@@ -11,7 +11,7 @@
 - 23来源组中12组优于均值参照、11组更差。随机分数不能替代跨文献泛化能力。
 - 0.95/0.8/0.76为用户已许可暂定系数；不插补目标、不覆盖原始材料、不按误差删困难样本。
 
-最新报告见[results/latest](results/latest)，模型见[models](models)。完整历史输出及原始材料单独迁移，Git不保存大型原始PDF/Excel。
+最新报告见[results/latest](results/latest)，模型见[models](models)。主分支不保存大型原始PDF/Excel；迁移ZIP暂存专用`desktop-transfer-20261025`分支，不合并主分支。
 
 ## 桌面运行
 
@@ -36,7 +36,14 @@ CSV列为`case_id,Water,Cem`，单位沿用原库名义基准，不自动进行�
 
 ## 恢复材料与研究流程
 
-首次克隆后，在仓库根目录解压项目状态归档和原始材料归档，恢复到`outputs/`、`data/raw/attachments/`。若已有本地修改，应先保留副本，不将归档作为自动更新覆盖包。
+聊天下载不可用时，在仓库根目录直接通过Git取包并恢复，无需浏览器分别下载：
+
+```bash
+git pull --ff-only origin main
+python scripts/download_migration.py --extract
+```
+
+脚本校验4包SHA256，只恢复`outputs/`和`data/raw/attachments/`，保留当前代码及本地不同内容文件，不改历史哈希。下载结果见`migration_archives/download_report.json`。也可从迁移分支网页下载4个ZIP。已有本地修改不应被手动解压覆盖。
 
 ```bash
 python scripts/prepare_desktop.py
