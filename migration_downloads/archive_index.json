@@ -1,0 +1,42 @@
+{
+  "archives": [
+    {
+      "file": "project_state.zip",
+      "sha256": "a2a14297e905400b6088aa13f13996cac3af83037073e407299ff891563ccafc",
+      "bytes": 24463727,
+      "entries": 787,
+      "verified": true,
+      "kind": "project_state"
+    },
+    {
+      "kind": "original_materials",
+      "part": 1,
+      "file": "original_materials_01.zip",
+      "sha256": "5e4dad141bcff464b0f98277acbed3194a3ca87a7806860fff9dbc1434dfb002",
+      "bytes": 27279976,
+      "entries": 5,
+      "verified": true
+    },
+    {
+      "kind": "original_materials",
+      "part": 2,
+      "file": "original_materials_02.zip",
+      "sha256": "ffe0b2565918c368ec0ee6748ff8fbae3a1aa0c8a8c77b3910038c02b0a858bd",
+      "bytes": 26630027,
+      "entries": 5,
+      "verified": true
+    },
+    {
+      "kind": "original_materials",
+      "part": 3,
+      "file": "original_materials_03.zip",
+      "sha256": "bfaab07761fba58db30fc9177296d4d69798980c7ae2ab8ceb7567c762299856",
+      "bytes": 17389795,
+      "entries": 6,
+      "verified": true
+    }
+  ],
+  "original_materials_count": 16,
+  "instructions": "首次克隆后把所有ZIP解压到仓库根目录，材料在data/raw/attachments，历史在outputs；不批量重写历史哈希。",
+  "raw_materials_committed_to_git": false
+}
